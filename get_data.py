@@ -34,17 +34,20 @@ def get_players_data(page):
     players = soup.find_all('tr', class_ =re.compile("pncPlayerRow"))
     stat_values = []
     for player in players:
-        raw_player_name = player.find('td', class_='playertablePlayerName').get_text()
-        player_info = (''.join([i if ord(i) < 128 else ', ' for i in raw_player_name])).split(', ')
-        name = player_info[0]
-        team = player_info[1]
-        positions = ' '.join([pos for pos in player_info[2:]]) 
-        raw_player_stat_values = [td.get_text() for td in player.findAll('td', class_='playertableStat')]
-        raw_player_stat_values = [stat[:stat.find('/')] if stat.find('/') != -1 else stat for stat in raw_player_stat_values]
-        raw_player_stat_values.extend([name, positions])
-        stat_values.append(raw_player_stat_values)
+        try:
+            # for now we assume no one is injured            
+            raw_player_name = player.find('td', class_='playertablePlayerName').get_text()
+            player_info = (''.join([i if ord(i) < 128 else ', ' for i in raw_player_name])).split(', ')
+            name = player_info[0].replace('.', '').replace('*','')
+            team = player_info[1]
+            positions = ' '.join([pos for pos in player_info[2:]]) 
+            raw_player_stat_values = [td.get_text() if td.get_text() != '--' else '' for td in player.findAll('td', class_='playertableStat')]
+            raw_player_stat_values = [stat[:stat.find('/')] if stat.find('/') != -1 else stat for stat in raw_player_stat_values]
+            raw_player_stat_values.extend([name, positions])
+            stat_values.append(raw_player_stat_values)
+        except AttributeError:
+            print( "Warning: You haven't completely filled out your current roster!")
 
-    # create dataframe
     players_data = pd.DataFrame(stat_values, columns=categories)
     players_data = players_data.apply(pd.to_numeric, errors='ignore')
     players_data = players_data.set_index('Name')
@@ -52,17 +55,43 @@ def get_players_data(page):
 
 
 
-def get_bball_monster_data():
+def get_bbm_data():
     '''
     Get recent data from basketball monster -- this is currently manually downloaded
     '''
     bbmonsterdata = pd.read_excel('BBM_PlayerRankings.xls').set_index('Name')
     bbmonsterdata_raw = bbmonsterdata[ ['Rank','fg%', 'ft%', '3/g', 'r/g', 'a/g', 's/g', 'b/g', 'p/g', 'to/g'] ]
     bbmonsterdata_zscores = bbmonsterdata[ ['Rank', 'fg%V', 'ft%V', '3V', 'rV', 'aV', 'sV', 'bV', 'pV', 'toV'] ]
+    return bbmonsterdata_raw, bbmonsterdata_zscores
+    
+
+def get_all_teams():
+    '''
+    Get dictionary of { teamname : [players] } of all teams
+    '''
+    url = 'http://games.espn.com/fba/leaguerosters?leagueId=204515'
+    source_code = requests.get(url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text, 'lxml')
+    tableSubHead = soup.find_all('table', class_='playerTableTable tableBody')
+    teams = dict()
+    for table in tableSubHead:
+        team_name = table.find('tr', class_=re.compile("playerTableBgRowHead")).get_text()
+        players = [stuff.get_text()[:stuff.get_text().find(',')].replace('.', '').replace('*','') for stuff in table.find_all('td', class_=re.compile('playertablePlayerName')) ]
+        teams[team_name] = players
+    return teams
+
 
 
 def get_player_universe():
+    '''
+    Get players on my team and free agents 
+    with relevant stats for fantasy league scoring
+    '''
     free_agents = get_players_data('freeagency')
+    my_team = get_players_data('clubhouse')
+    all_avail_players = free_agents.append(my_team)
+    return all_avail_players
 
 
 
