@@ -1,0 +1,12 @@
+GOALS:
+Somehow generate best lineup given available players universe
+Be able to "backtest" lineups across season - this requires more data extraction setup
+from either ESPN or other nba data sources
+
+9/30: 
+Created setup for data extraction from ESPN Fantasy site and BBM (basketball monster)
+Got data from free agency, current roster
+Got opposition rosters
+
+10/2:
+Started analysis by comparing all teams in league with BBM ranking system
