@@ -16,7 +16,6 @@ def get_players_data(page):
     page: {clubhouse, freeagency}
     '''
     url = 'http://games.espn.com/fba/{}?leagueId=204515&teamId=12&seasonId=2018'.format(page)
-           # http://games.espn.com/fba/{}?leagueId=204515&teamId=12&seasonId=2018
     source_code = requests.get(url)
     plain_text = source_code.text
     soup = BeautifulSoup(plain_text, 'lxml')
@@ -81,7 +80,32 @@ def get_all_teams():
         teams[team_name] = players
     return teams
 
+def get_all_teams_stats():
+    '''
+    Get team stats for each team from ESPN
+    '''
+    url = 'http://games.espn.com/fba/scoreboard?leagueId=204515&seasonId=2018'
+    source_code = requests.get(url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text, 'lxml')
+    teams = []
+    tableSubHead = soup.find_all('tr', class_='tableSubHead')
+    tableSubHead = tableSubHead[0]
+    listCats = tableSubHead.find_all('th')
+    categories = []
+    for cat in listCats:
+        if 'title' in cat.attrs:
+            categories.append(cat.string)
+    rows = soup.findAll('tr', {'class': 'linescoreTeamRow'})
 
+    # Creates a 2-D matrix which resembles the Season Stats table.
+    for row in range(len(rows)):
+        team_row = []
+        columns = rows[row].findAll('td')[:(2 + len(categories))]
+        for column in columns:
+            team_row.append(column.getText())
+        teams.append(team_row)
+    return teams, categories
 
 def get_player_universe():
     '''

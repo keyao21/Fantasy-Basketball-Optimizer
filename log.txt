@@ -1,4 +1,5 @@
 GOALS:
+How good of a predictor is aggregated zscore? (test this!)
 Somehow generate best lineup given available players universe
 Be able to "backtest" lineups across season - this requires more data extraction setup
 from either ESPN or other nba data sources
@@ -10,3 +11,6 @@ Got opposition rosters
 
 10/2:
 Started analysis by comparing all teams in league with BBM ranking system
+
+10/3:
+Added ESPN stats for each team in league for hypothetical matchups
