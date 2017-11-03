@@ -126,7 +126,7 @@ def sortPlayerUniv(num_players=20):
     # return the top 20 guys
     return player_univ.sort_values('new_rank', ascending=False)[:num_players] 
 
-def compareTeams(opp=None):
+def compareTeams(opp=None, team=None):
     '''
     compare hypothetical team with opponent team (opp)
     input name (ex. 'TEAM NAME (18-4)')
@@ -141,7 +141,11 @@ def compareTeams(opp=None):
     scores.toV = -scores.toV
 
     # opp = scores.loc[opp]
-    hyp = sortPlayerUniv(num_players=13)
+    if team:
+        hyp = zscores.loc[[i for i in team]]
+    else:
+        hyp = sortPlayerUniv(num_players=13)
+
     hyp_stats = hyp.sum()[ scores.columns ]
     hyp_stats['Rank'] = hyp_stats['Rank']/13
     hyp_stats.name = 'TEMP'
@@ -149,16 +153,52 @@ def compareTeams(opp=None):
     games = compare_stats(scores)
     return list(hyp.index), games.loc[ games['TEAM1'].str.contains('TEMP') & ~games['TEAM2'].str.contains('TEMP')]
 
-def searchBestTeam(num_players=20):
+def calcBestTeam(num_players=20):
+    '''
+    Calculate the best lineup based on BBM stats and correlations between 
+    BBM stats and actual performance
+    '''
+
     pool = sortPlayerUniv(num_players=num_players)
     all_teams = list(itertools.combinations(pool.index, 13))
+    teams = Data.get_all_teams()
+    raw, zscores = Data.get_bbm_data()
+    scores = []
+    for team_name, players in teams.items():
+        scores.append(zscores.loc[players,:].sum())
+    scores = pd.DataFrame(scores,index=teams)
+    scores.Rank = scores.Rank/13 # get average rank
+    scores.toV = -scores.toV
+    opp_stats = scores.loc[opp]
+
+    # get correlations -- make it in the order of opp_stats
+    corr = compareRankActual()
+    correlation_vector = [ corr[cat] for cat in opp_stats.index[1:] ]
+
+    # this is sample <----------- change this
+    opp = 'WE STILL CURRY BOYZ (18-4)'
+    opp_stats = scores.loc[opp]
+
+    teams_stats = []
     for team in all_teams:
+        hyp = zscores.loc[[i for i in team]]
         hyp_stats = hyp.sum()[ scores.columns ]
         hyp_stats['Rank'] = hyp_stats['Rank']/13
         hyp_stats.name = 'TEMP'
-        scores = scores.append(hyp_stats)
-        games = compare_stats(scores)
-        return hyp, games.loc[ games['TEAM1'].str.contains('TEMP') & ~games['TEAM2'].str.contains('TEMP')]
+        teams_stats.append(hyp_stats)
+
+    teams_stats = np.array(teams_stats)
+    opp_stats = np.array(opp_stats)
+    value_mat = np.dot( (teams_stats-opp_stats)[:,:9] , correlation_vector )
+    
+    # this is the team that has the largest value
+
+
+    val_mat.argsort()[-5:]  # indices of the top 5 lineups
+    suggestions = [all_teams[i] for i in val_mat.argsort()[-5:] ]  # suggested lineups (top 5)
+
+    team, best_performance = compareTeams(team=suggestions[-1])
+    return all_teams[val_mat.argmax()]
 
 
 
