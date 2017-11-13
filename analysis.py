@@ -1,5 +1,5 @@
 import pandas as pd
-import get_data as Data
+from get_data import LeagueData
 import numpy as np
 import itertools
 
@@ -9,6 +9,7 @@ We need to come up with a combination of players in the available player
 universe (consists of FAs and current team) that has better grades than 
 the other teams
 '''
+
 
 def player_universe():
     '''
@@ -108,7 +109,10 @@ def compareRankActual():
     for actual_stat, rank_stat in stat_groups.items():
         # print( 'Correlation {}  and  {}'.format(actual_stat, rank_stat) )
         # print( np.corrcoef(rank[rank_stat], actual[actual_stat])[0][1] )
-        correlations[rank_stat] = np.corrcoef(rank[rank_stat], actual[actual_stat])[0][1]
+        try:
+            correlations[rank_stat] = np.corrcoef(rank[rank_stat], actual[actual_stat])[0][1]
+        except KeyError:
+            correlations[rank_stat] = 0
     return correlations
 
 def sortPlayerUniv(num_players=20):
@@ -162,22 +166,22 @@ def calcBestTeam(num_players=20):
     pool = sortPlayerUniv(num_players=num_players)
     all_teams = list(itertools.combinations(pool.index, 13))
     teams = Data.get_all_teams()
+    # print( teams) 
     raw, zscores = Data.get_bbm_data()
     scores = []
     for team_name, players in teams.items():
         scores.append(zscores.loc[players,:].sum())
     scores = pd.DataFrame(scores,index=teams)
     scores.Rank = scores.Rank/13 # get average rank
-    scores.toV = -scores.toV
+    # scores.toV = -scores.toV
+
+    # this is sample <----------- change this
+    opp = 'YAO  ALI (0-4)'
     opp_stats = scores.loc[opp]
 
     # get correlations -- make it in the order of opp_stats
     corr = compareRankActual()
     correlation_vector = [ corr[cat] for cat in opp_stats.index[1:] ]
-
-    # this is sample <----------- change this
-    opp = 'WE STILL CURRY BOYZ (18-4)'
-    opp_stats = scores.loc[opp]
 
     teams_stats = []
     for team in all_teams:
@@ -189,23 +193,28 @@ def calcBestTeam(num_players=20):
 
     teams_stats = np.array(teams_stats)
     opp_stats = np.array(opp_stats)
-    value_mat = np.dot( (teams_stats-opp_stats)[:,:9] , correlation_vector )
-    
-    # this is the team that has the largest value
+    value_vector = np.dot( (teams_stats-opp_stats)[:,1:] , correlation_vector )  # cutting out ranking for now
 
-
-    val_mat.argsort()[-5:]  # indices of the top 5 lineups
-    suggestions = [all_teams[i] for i in val_mat.argsort()[-5:] ]  # suggested lineups (top 5)
+    suggestions = [all_teams[i] for i in value_vector.argsort()[-5:] ]  # suggested lineups (top 5)
+    score = np.sort(value_vector)[-5:]
 
     team, best_performance = compareTeams(team=suggestions[-1])
-    return all_teams[val_mat.argmax()]
+
+    for i,suggest in enumerate(suggestions):
+        print('\nTEAM {}:  (score: {})\n'.format(5-i, score[i]))
+        print(suggest)
+        print('\n=============================\n')
+
+    return all_teams[value_vector.argmax()]
 
 
 
 if __name__ == '__main__':
-    print( compareTeams()[0] )
-    compareTeams()[1].to_csv('results.csv')
+    # print( compareTeams()[0] )
+    # compareTeams()[1].to_csv('results.csv')
+    # print ( compareRankActual() )
+    
+    Data = LeagueData(leagueID='445514', teamID='1', week=5)
 
-
-
-
+    # print ( compareTeams() )
+    calcBestTeam()
