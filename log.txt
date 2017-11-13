@@ -1,8 +1,6 @@
 GOALS:
-How good of a predictor is aggregated zscore? (test this!)
-Somehow generate best lineup given available players universe
-Be able to "backtest" lineups across season - this requires more data extraction setup
-from either ESPN or other nba data sources
+Given backtest data, generate backtesting platform
+
 
 9/30: 
 Created setup for data extraction from ESPN Fantasy site and BBM (basketball monster)
@@ -14,3 +12,10 @@ Started analysis by comparing all teams in league with BBM ranking system
 
 10/3:
 Added ESPN stats for each team in league for hypothetical matchups
+Return best lineup based on available player universe - this is calculated by finding the combination of players which maximizes the sum of the weighted zscores in each stat category
+
+SIDE NOTE: Zscores are weighted by the "predicting power" zscore (aka. what BBM calls stat value, e.g. toV, pV,...) and the equivalent actual score. If teamA's assists zscore is much higher than teamB's assists zscore and if teamA's actual assist count is much higher than teamB's assist count, then the assists zscore is considered more predictive. Essentially I think there is too much noise is some of the stat categories (there is very little variance in FG% and FT% across all the players), 
+
+10/11
+Added backtesting data (every players stats for each game/date) - still needs some development 
+ 
