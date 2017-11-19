@@ -150,7 +150,7 @@ def getPlayerGames(year):
 
     games = pd.read_csv('data/historicData/Games/games_{}.csv'.format( year )).drop_duplicates('id').set_index('id')
     BASE_URL = 'http://espn.go.com/nba/boxscore?gameId={0}'
-    columns = ['id', 'Date', 'player', u'MIN', u'FG', u'3PT', u'FT', u'REB', u'AST', u'STL', u'BLK', u'TO', u'PF', u'PTS']
+    columns = ['id', 'Date', 'player', u'MIN', u'FG',u'FT', u'3PT', u'REB', u'AST', u'STL', u'BLK', u'TO', u'PF', u'PTS']
 
     players = []
 
@@ -245,4 +245,7 @@ if __name__ == '__main__':
     # teams, player_stats = getPlayerStats(startyear, endyear)
     # games = getGames(teams, startyear, endyear)
     stats = getPlayerGames(2017)
+    stats = getPlayerGames(2016)
+
+
     
