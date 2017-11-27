@@ -18,4 +18,6 @@ SIDE NOTE: Zscores are weighted by the "predicting power" zscore (aka. what BBM 
 
 10/11
 Added backtesting data (every players stats for each game/date) - still needs some development 
- 
+
+11/27 
+Look at prvious years' performances for all players on all teams and compare 
