@@ -176,12 +176,13 @@ def calcBestTeam(num_players=20):
     # scores.toV = -scores.toV
 
     # this is sample <----------- change this
-    opp = 'YAO  ALI (0-4)'
+    opp = 'TEAM YU (3-6)'
     opp_stats = scores.loc[opp]
 
     # get correlations -- make it in the order of opp_stats
     corr = compareRankActual()
     correlation_vector = [ corr[cat] for cat in opp_stats.index[1:] ]
+    print( corr )
 
     teams_stats = []
     for team in all_teams:
@@ -214,7 +215,7 @@ if __name__ == '__main__':
     # compareTeams()[1].to_csv('results.csv')
     # print ( compareRankActual() )
     
-    Data = LeagueData(leagueID='445514', teamID='1', week=5)
+    Data = LeagueData(leagueID='445514', teamID='1', week=10)
 
     # print ( compareTeams() )
     calcBestTeam()
