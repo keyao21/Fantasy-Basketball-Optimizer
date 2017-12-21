@@ -1,42 +1,115 @@
 # Lineup Optimizer for ESPN Fantasy Basketball
 
-```r
+### Running the optimizer
+In the file directory, run analysis.py
+
+```py
 python analysis.py
 ```
 
-### Top 5 lineups for Dec. 19, 2017
+You will be prompted for some info. Keep your ESPN information handy by navigating to your fantasy team page. The information required should be in the URL. For example, given the following URL:
+[http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018]( http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018 ), input the following when prompted:  
 
-TEAM 5:  (score: 10.826944799667828)
+```
+Please enter your league ID: 445514
+Please enter your team ID: 1
+Please enter the week number: 10
+```
 
-('James Harden', 'Chris Paul', 'DeMarcus Cousins', 'Kyle Lowry', 'Kevin Love', 'Khris Middleton', 'Gary Harris', 'Donovan Mitchell', 'Hassan Whiteside', 'Trevor Ariza', 'Kent Bazemore', 'Andre Drummond', 'Tyreke Evans')
+
+### Top 5 lineups for Dec. 20, 2017
+
+TEAM 5:  (score: 10.708079315080555)
+
+James Harden
+Chris Paul
+DeMarcus Cousins
+Kyle Lowry
+Kevin Love
+Khris Middleton
+Gary Harris
+Donovan Mitchell
+Trevor Ariza
+Hassan Whiteside
+Kent Bazemore
+Andre Drummond
+Tyreke Evans
 
 =============================
 
 
-TEAM 4:  (score: 10.876838720835066)
+TEAM 4:  (score: 10.840894516019457)
 
-('James Harden', 'Chris Paul', 'DeMarcus Cousins', 'Kyle Lowry', 'Kevin Love', 'Khris Middleton', 'Gary Harris', 'Donovan Mitchell', 'Hassan Whiteside', 'Trevor Ariza', 'Kent Bazemore', 'Evan Fournier', 'Tobias Harris')
-
-=============================
-
-
-TEAM 3:  (score: 10.928589247470235)
-
-('James Harden', 'Chris Paul', 'DeMarcus Cousins', 'Kyle Lowry', 'Kevin Love', 'Khris Middleton', 'Gary Harris', 'Donovan Mitchell', 'Hassan Whiteside', 'Trevor Ariza', 'Kent Bazemore', 'Evan Fournier', 'Kentavious Caldwell-Pope')
-
-=============================
-
-
-TEAM 2:  (score: 10.962575830936345)
-
-('James Harden', 'Chris Paul', 'DeMarcus Cousins', 'Kyle Lowry', 'Kevin Love', 'Khris Middleton', 'Gary Harris', 'Donovan Mitchell', 'Hassan Whiteside', 'Trevor Ariza', 'Kent Bazemore', 'Evan Fournier', 'Tyreke Evans')
+James Harden
+Chris Paul
+DeMarcus Cousins
+Kyle Lowry
+Kevin Love
+Khris Middleton
+Gary Harris
+Donovan Mitchell
+Trevor Ariza
+Hassan Whiteside
+Kent Bazemore
+Evan Fournier
+Tobias Harris
 
 =============================
 
 
-TEAM 1:  (score: 11.12395544555929)
+TEAM 3:  (score: 10.88625247856297)
 
-('James Harden', 'Chris Paul', 'DeMarcus Cousins', 'Kyle Lowry', 'Kevin Love', 'Khris Middleton', 'Gary Harris', 'Donovan Mitchell', 'Hassan Whiteside', 'Trevor Ariza', 'Kent Bazemore', 'Evan Fournier', 'Andre Drummond')
+James Harden
+Chris Paul
+DeMarcus Cousins
+Kyle Lowry
+Kevin Love
+Khris Middleton
+Gary Harris
+Donovan Mitchell
+Trevor Ariza
+Hassan Whiteside
+Kent Bazemore
+Evan Fournier
+Kentavious Caldwell-Pope
+
+=============================
+
+
+TEAM 2:  (score: 10.910064304011993)
+
+James Harden
+Chris Paul
+DeMarcus Cousins
+Kyle Lowry
+Kevin Love
+Khris Middleton
+Gary Harris
+Donovan Mitchell
+Trevor Ariza
+Hassan Whiteside
+Kent Bazemore
+Evan Fournier
+Tyreke Evans
+
+=============================
+
+
+TEAM 1:  (score: 11.00582258452509)
+
+James Harden
+Chris Paul
+DeMarcus Cousins
+Kyle Lowry
+Kevin Love
+Khris Middleton
+Gary Harris
+Donovan Mitchell
+Trevor Ariza
+Hassan Whiteside
+Kent Bazemore
+Evan Fournier
+Andre Drummond
 
 =============================
 

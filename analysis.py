@@ -6,8 +6,8 @@ import itertools
 '''
 Combine datasets from ESPN and BBM to 'grade' teams in league
 We need to come up with a combination of players in the available player 
-universe (consists of FAs and current team) that has better grades than 
-the other teams
+universe (consists of FAs and current team) that has a better grade than 
+the opposing team(s)
 '''
 
 
@@ -157,7 +157,7 @@ def compareTeams(opp=None, team=None):
     games = compare_stats(scores)
     return list(hyp.index), games.loc[ games['TEAM1'].str.contains('TEMP') & ~games['TEAM2'].str.contains('TEMP')]
 
-def calcBestTeam(num_players=20):
+def calcBestTeam(num_players=20, oppteam=None):
     '''
     Calculate the best lineup based on BBM stats and correlations between 
     BBM stats and actual performance
@@ -175,8 +175,8 @@ def calcBestTeam(num_players=20):
     scores.Rank = scores.Rank/13 # get average rank
     # scores.toV = -scores.toV
 
-    # this is sample <----------- change this
-    opp = 'TEAM YU (3-6)'
+    # optimize wrt current opponent for the week
+    opp = oppteam
     opp_stats = scores.loc[opp]
 
     # get correlations -- make it in the order of opp_stats
@@ -203,7 +203,8 @@ def calcBestTeam(num_players=20):
 
     for i,suggest in enumerate(suggestions):
         print('\nTEAM {}:  (score: {})\n'.format(5-i, score[i]))
-        print(suggest)
+        for player in suggest:
+            print(player)
         print('\n=============================\n')
 
     return all_teams[value_vector.argmax()]
@@ -214,8 +215,10 @@ if __name__ == '__main__':
     # print( compareTeams()[0] )
     # compareTeams()[1].to_csv('results.csv')
     # print ( compareRankActual() )
-    
-    Data = LeagueData(leagueID='445514', teamID='1', week=10)
-
-    # print ( compareTeams() )
-    calcBestTeam()
+    leagueID = input("Please enter your league ID: ")
+    teamID = input("Please enter your team ID: ")
+    week = input("Please enter the week number: ")
+    opponent = input("Please enter the opposing team and record (e.g. 'TEAM YU (3-6)'): ")
+    # Data = LeagueData(leagueID='445514', teamID='1', week=10)
+    Data = LeagueData(leagueID=leagueID, teamID=teamID, week=int(week))
+    calcBestTeam(oppteam=opponent)
