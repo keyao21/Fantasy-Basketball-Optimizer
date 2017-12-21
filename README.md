@@ -11,9 +11,9 @@ You will be prompted for some info. Keep your ESPN information handy by navigati
 [http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018]( http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018 ), input the following when prompted:  
 
 ```
-**Please enter your league ID:** 445514
-**Please enter your team ID:** 1
-**Please enter the week number:** 10
+Please enter your league ID: 445514
+Please enter your team ID: 1
+Please enter the week number: 10
 ```
 
 Note: week number depends on which week of the season you want to look at. Probably just enter the latest week. 
