@@ -3,7 +3,7 @@
 ### Running the optimizer
 In the file directory, run analysis.py
 
-```py
+```python
 python analysis.py
 ```
 
