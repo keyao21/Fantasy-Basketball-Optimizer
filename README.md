@@ -16,100 +16,101 @@ Please enter your team ID: 1
 Please enter the week number: 10
 ```
 
+Note: week number depends on which week of the season you want to look at. Probably just enter the latest week. 
 
 ### Top 5 lineups for Dec. 20, 2017
 
 TEAM 5:  (score: 10.708079315080555)
 
-James Harden
-Chris Paul
-DeMarcus Cousins
-Kyle Lowry
-Kevin Love
-Khris Middleton
-Gary Harris
-Donovan Mitchell
-Trevor Ariza
-Hassan Whiteside
-Kent Bazemore
-Andre Drummond
-Tyreke Evans
+James Harden <br />
+Chris Paul <br />
+DeMarcus Cousins <br />
+Kyle Lowry <br />
+Kevin Love <br />
+Khris Middleton <br />
+Gary Harris <br />
+Donovan Mitchell <br />
+Trevor Ariza <br />
+Hassan Whiteside <br />
+Kent Bazemore <br />
+Andre Drummond <br />
+Tyreke Evans <br />
 
 =============================
 
 
 TEAM 4:  (score: 10.840894516019457)
 
-James Harden
-Chris Paul
-DeMarcus Cousins
-Kyle Lowry
-Kevin Love
-Khris Middleton
-Gary Harris
-Donovan Mitchell
-Trevor Ariza
-Hassan Whiteside
-Kent Bazemore
-Evan Fournier
-Tobias Harris
+James Harden <br />
+Chris Paul <br />
+DeMarcus Cousins <br />
+Kyle Lowry <br />
+Kevin Love <br />
+Khris Middleton <br />
+Gary Harris <br />
+Donovan Mitchell <br />
+Trevor Ariza <br />
+Hassan Whiteside <br />
+Kent Bazemore <br />
+Evan Fournier <br />
+Tobias Harris <br />
 
 =============================
 
 
 TEAM 3:  (score: 10.88625247856297)
 
-James Harden
-Chris Paul
-DeMarcus Cousins
-Kyle Lowry
-Kevin Love
-Khris Middleton
-Gary Harris
-Donovan Mitchell
-Trevor Ariza
-Hassan Whiteside
-Kent Bazemore
-Evan Fournier
-Kentavious Caldwell-Pope
+James Harden <br />
+Chris Paul <br />
+DeMarcus Cousins <br />
+Kyle Lowry <br />
+Kevin Love <br />
+Khris Middleton <br />
+Gary Harris <br />
+Donovan Mitchell <br />
+Trevor Ariza <br />
+Hassan Whiteside <br />
+Kent Bazemore <br />
+Evan Fournier <br />
+Kentavious Caldwell-Pope <br />
 
 =============================
 
 
 TEAM 2:  (score: 10.910064304011993)
 
-James Harden
-Chris Paul
-DeMarcus Cousins
-Kyle Lowry
-Kevin Love
-Khris Middleton
-Gary Harris
-Donovan Mitchell
-Trevor Ariza
-Hassan Whiteside
-Kent Bazemore
-Evan Fournier
-Tyreke Evans
+James Harden <br />
+Chris Paul <br />
+DeMarcus Cousins <br />
+Kyle Lowry <br />
+Kevin Love <br />
+Khris Middleton <br />
+Gary Harris <br />
+Donovan Mitchell <br />
+Trevor Ariza <br />
+Hassan Whiteside <br />
+Kent Bazemore <br />
+Evan Fournier <br />
+Tyreke Evans <br />
 
 =============================
 
 
 TEAM 1:  (score: 11.00582258452509)
 
-James Harden
-Chris Paul
-DeMarcus Cousins
-Kyle Lowry
-Kevin Love
-Khris Middleton
-Gary Harris
-Donovan Mitchell
-Trevor Ariza
-Hassan Whiteside
-Kent Bazemore
-Evan Fournier
-Andre Drummond
+James Harden <br />
+Chris Paul <br />
+DeMarcus Cousins <br />
+Kyle Lowry <br />
+Kevin Love <br />
+Khris Middleton <br />
+Gary Harris <br />
+Donovan Mitchell <br />
+Trevor Ariza <br />
+Hassan Whiteside <br />
+Kent Bazemore <br />
+Evan Fournier <br />
+Andre Drummond <br />
 
 =============================
 
