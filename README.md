@@ -8,74 +8,18 @@ python analysis.py
 ```
 
 You will be prompted for some info. Keep your ESPN information handy by navigating to your fantasy team page. The information required should be in the URL. For example, given the following URL:
-[http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018]( http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018 ), input the following when prompted:  
+[http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018]( http://games.espn.com/fba/clubhouse?leagueId=445514&teamId=1&seasonId=2018 ), you should input the following when prompted:  
 
 ```
 Please enter your league ID: 445514
 Please enter your team ID: 1
 Please enter the week number: 10
+Please enter the opposing team name (e.g. 'TEAM YAO'): TEAM YAO
 ```
 
 Note: week number depends on which week of the season you want to look at. Probably just enter the latest week. 
 
-### Top 5 lineups for Dec. 20, 2017
-
-TEAM 5:  (score: 10.708079315080555)
-
-James Harden <br />
-Chris Paul <br />
-DeMarcus Cousins <br />
-Kyle Lowry <br />
-Kevin Love <br />
-Khris Middleton <br />
-Gary Harris <br />
-Donovan Mitchell <br />
-Trevor Ariza <br />
-Hassan Whiteside <br />
-Kent Bazemore <br />
-Andre Drummond <br />
-Tyreke Evans <br />
-
-=============================
-
-
-TEAM 4:  (score: 10.840894516019457)
-
-James Harden <br />
-Chris Paul <br />
-DeMarcus Cousins <br />
-Kyle Lowry <br />
-Kevin Love <br />
-Khris Middleton <br />
-Gary Harris <br />
-Donovan Mitchell <br />
-Trevor Ariza <br />
-Hassan Whiteside <br />
-Kent Bazemore <br />
-Evan Fournier <br />
-Tobias Harris <br />
-
-=============================
-
-
-TEAM 3:  (score: 10.88625247856297)
-
-James Harden <br />
-Chris Paul <br />
-DeMarcus Cousins <br />
-Kyle Lowry <br />
-Kevin Love <br />
-Khris Middleton <br />
-Gary Harris <br />
-Donovan Mitchell <br />
-Trevor Ariza <br />
-Hassan Whiteside <br />
-Kent Bazemore <br />
-Evan Fournier <br />
-Kentavious Caldwell-Pope <br />
-
-=============================
-
+#### Top 2 lineups for Dec. 20, 2017
 
 TEAM 2:  (score: 10.910064304011993)
 
@@ -114,10 +58,59 @@ Andre Drummond <br />
 
 =============================
 
-## TODO: 
-Given backtest data, generate backtesting platform
+### Backtest
+It may be interesting to see how your team performs against other teams historically. 
 
-## Progress: 
+
+#### Setting up
+First we will create a few csv tables by scraping ESPN and BBM online webpages. In the main directory, run the following script:
+
+```python
+python get_historic_data.py
+```
+
+You will be prompted for starting and ending years. This range should overlap the range of dates where you plan to backtest over. For example, if you plan to backtest over Dec 2017 through Feb 2018, then you would enter the following: 
+
+```
+Enter starting year: 2017
+Enter ending year: 2018
+```
+
+#### Stored Data
+You can access historic data after running the script in the `historicData` directory. These files should be arranged by type and year. 
+
+### Running backtest
+Once historic data has been stored, we can create a backtest instance by running the following script in the main directory: 
+
+```python
+python backtest.py
+```
+
+You will be initially prompted for information similar the `analysis.py` script. Enter the relevant information. From there, you should see the following: 
+
+```
+Collecting data...
+Create team to test by entering players' names, separated by comma: 
+```
+
+Here, you should enter 13 players separated by commas. You can either use the recommended teams from running `analysis.py` or pick your own 13 players.
+
+Next, you will be prompted for the range of dates where you plan to backtest over: 
+
+```
+Enter start date: (e.g. 2017-10-17)
+Enter end date: (e.g. 2017-11-26)
+```
+
+Based on the list of players you previously inputed and the other teams in the fanstasy league, time series plots for each of the stat categories, where each plot compares the performances of each team, should appear. For example:
+
+Note: x-axis format is YEAR-WEEK
+
+![Alt text](/images/2018_comparion.png)<br />
+
+
+
+## NOTES: 
 11/27 
 Look at prvious years' performances for all players on all teams and compare 
 

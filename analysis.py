@@ -2,6 +2,7 @@ import pandas as pd
 from get_data import LeagueData
 import numpy as np
 import itertools
+import argparse
 
 '''
 Combine datasets from ESPN and BBM to 'grade' teams in league
@@ -133,7 +134,7 @@ def sortPlayerUniv(num_players=20):
 def compareTeams(opp=None, team=None):
     '''
     compare hypothetical team with opponent team (opp)
-    input name (ex. 'TEAM NAME (18-4)')
+    input name (ex. 'TEAM YAO')
     '''
     teams = Data.get_all_teams()
     raw, zscores = Data.get_bbm_data()
@@ -166,7 +167,6 @@ def calcBestTeam(num_players=20, oppteam=None):
     pool = sortPlayerUniv(num_players=num_players)
     all_teams = list(itertools.combinations(pool.index, 13))
     teams = Data.get_all_teams()
-    # print( teams) 
     raw, zscores = Data.get_bbm_data()
     scores = []
     for team_name, players in teams.items():
@@ -175,8 +175,17 @@ def calcBestTeam(num_players=20, oppteam=None):
     scores.Rank = scores.Rank/13 # get average rank
     # scores.toV = -scores.toV
 
+    # search team names for user input team name
+    opp = None
+    for team_name in teams.keys():
+        if oppteam in team_name:
+            opp = team_name
+        
+    if opp is None:
+        print("Entered team ", oppteam, " not found.")
+        return
+
     # optimize wrt current opponent for the week
-    opp = oppteam
     opp_stats = scores.loc[opp]
 
     # get correlations -- make it in the order of opp_stats
@@ -215,10 +224,21 @@ if __name__ == '__main__':
     # print( compareTeams()[0] )
     # compareTeams()[1].to_csv('results.csv')
     # print ( compareRankActual() )
-    leagueID = input("Please enter your league ID: ")
-    teamID = input("Please enter your team ID: ")
-    week = input("Please enter the week number: ")
-    opponent = input("Please enter the opposing team and record (e.g. 'TEAM YU (3-6)'): ")
-    # Data = LeagueData(leagueID='445514', teamID='1', week=10)
-    Data = LeagueData(leagueID=leagueID, teamID=teamID, week=int(week))
-    calcBestTeam(oppteam=opponent)
+  
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-t', action='store_true')
+    args = parser.parse_args()
+
+    if args.t:
+        Data = LeagueData(leagueID='445514', teamID='1', week=10)
+        opponent = "LIU"
+        calcBestTeam(oppteam=opponent)
+
+    elif ~args.t:    
+        leagueID = input("Please enter your league ID: ")
+        teamID = input("Please enter your team ID: ")
+        week = input("Please enter the week number: ")
+        opponent = input("Please enter the opposing team name (e.g. 'TEAM YU'): ")
+        # Data = LeagueData(leagueID='445514', teamID='1', week=10)
+        Data = LeagueData(leagueID=leagueID, teamID=teamID, week=int(week))
+        calcBestTeam(oppteam=opponent)

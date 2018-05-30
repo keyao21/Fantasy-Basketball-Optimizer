@@ -1,0 +1,1305 @@
+id,date,home_team,home_team_score,visit_team,visit_team_score
+401029429,2018-04-15,Boston Celtics,113,Milwaukee,107
+401029430,2018-04-17,Boston Celtics,120,Milwaukee,106
+401029432,2018-04-20,Milwaukee,116,Boston Celtics,92
+401029434,2018-04-22,Milwaukee,104,Boston Celtics,102
+401029435,2018-04-24,Boston Celtics,92,Milwaukee,87
+401029436,2018-04-26,Milwaukee,97,Boston Celtics,86
+401029437,2018-04-28,Boston Celtics,112,Milwaukee,96
+401031671,2018-04-30,Boston Celtics,117,Philadelphia,101
+401031672,2018-05-03,Boston Celtics,108,Philadelphia,103
+401031673,2018-05-05,Philadelphia,98,Boston Celtics,101
+401031674,2018-05-07,Philadelphia,103,Boston Celtics,92
+401031675,2018-05-09,Boston Celtics,114,Philadelphia,112
+401032840,2018-05-13,Boston Celtics,108,Cleveland,83
+401032841,2018-05-15,Boston Celtics,107,Cleveland,94
+401032842,2018-05-19,Cleveland,116,Boston Celtics,86
+401032843,2018-05-21,Cleveland,111,Boston Celtics,102
+401032844,2018-05-23,Boston Celtics,96,Cleveland,83
+401032845,2018-05-25,Cleveland,109,Boston Celtics,99
+401032846,2018-05-27,Boston Celtics,79,Cleveland,87
+400974701,2018-10-18,Indiana,140,Brooklyn Nets,131
+400974774,2018-10-20,Brooklyn Nets,126,Orlando,121
+400974789,2018-10-22,Brooklyn Nets,116,Atlanta,104
+400974801,2018-10-24,Orlando,125,Brooklyn Nets,121
+400974809,2018-10-25,Brooklyn Nets,112,Cleveland,107
+400974824,2018-10-27,NY Knicks,107,Brooklyn Nets,86
+400974838,2018-10-29,Brooklyn Nets,111,Denver,124
+400974853,2018-10-31,Brooklyn Nets,114,Phoenix,122
+400974881,2018-11-03,Los Angeles,124,Brooklyn Nets,112
+400974898,2018-11-06,Phoenix,92,Brooklyn Nets,98
+400974906,2018-11-07,Denver,112,Brooklyn Nets,104
+400974927,2018-11-10,Portland,97,Brooklyn Nets,101
+400974938,2018-11-11,Utah,114,Brooklyn Nets,106
+400974952,2018-11-14,Brooklyn Nets,102,Boston,109
+400974970,2018-11-17,Brooklyn Nets,118,Utah,107
+400974987,2018-11-19,Brooklyn Nets,111,Golden State,118
+400975005,2018-11-22,Cleveland,119,Brooklyn Nets,109
+400975018,2018-11-24,Brooklyn Nets,125,Portland,127
+400975040,2018-11-26,Memphis,88,Brooklyn Nets,98
+400975045,2018-11-27,Houston,117,Brooklyn Nets,103
+400975061,2018-11-29,Dallas,104,Brooklyn Nets,109
+400975079,2018-12-02,Brooklyn Nets,102,Atlanta,114
+400975093,2018-12-04,Atlanta,90,Brooklyn Nets,110
+400975116,2018-12-07,Brooklyn Nets,100,Oklahoma City,95
+400975127,2018-12-09,Brooklyn Nets,89,Miami,101
+400975151,2018-12-12,Brooklyn Nets,103,Washington,98
+400975165,2018-12-14,Brooklyn Nets,104,NY Knicks,111
+400975175,2018-12-15,Toronto,120,Brooklyn Nets,87
+400975190,2018-12-17,Brooklyn Nets,97,Indiana,109
+400975208,2018-12-20,Brooklyn Nets,99,Sacramento,104
+400975224,2018-12-22,Brooklyn Nets,119,Washington,84
+400975233,2018-12-23,Indiana,123,Brooklyn Nets,119
+400975248,2018-12-26,San Antonio,109,Brooklyn Nets,97
+400975257,2018-12-27,New Orleans,128,Brooklyn Nets,113
+400975269,2018-12-29,Miami,87,Brooklyn Nets,111
+400975285,2018-12-31,Boston,108,Brooklyn Nets,105
+400975291,2018-01-01,Brooklyn Nets,98,Orlando,95
+400975303,2018-01-03,Brooklyn Nets,98,Minnesota,97
+400975325,2018-01-06,Brooklyn Nets,85,Boston,87
+400975338,2018-01-08,Brooklyn Nets,113,Toronto,114
+400975352,2018-01-10,Brooklyn Nets,80,Detroit,114
+400975367,2018-01-12,Atlanta,105,Brooklyn Nets,110
+400975376,2018-01-13,Washington,119,Brooklyn Nets,113
+400975388,2018-01-15,Brooklyn Nets,104,NY Knicks,119
+400975401,2018-01-17,Brooklyn Nets,95,San Antonio,100
+400975414,2018-01-19,Brooklyn Nets,101,Miami,95
+400975431,2018-01-21,Detroit,100,Brooklyn Nets,101
+400975443,2018-01-23,Oklahoma City,109,Brooklyn Nets,108
+400975465,2018-01-26,Milwaukee,116,Brooklyn Nets,91
+400975475,2018-01-27,Minnesota,111,Brooklyn Nets,97
+400975491,2018-01-30,NY Knicks,111,Brooklyn Nets,95
+400975502,2018-01-31,Brooklyn Nets,116,Philadelphia,108
+400975514,2018-02-02,Brooklyn Nets,99,Los Angeles,102
+400975531,2018-02-04,Brooklyn Nets,94,Milwaukee,109
+400975546,2018-02-06,Brooklyn Nets,113,Houston,123
+400975551,2018-02-07,Detroit,115,Brooklyn Nets,106
+400975572,2018-02-10,Brooklyn Nets,128,New Orleans,138
+400975589,2018-02-12,Brooklyn Nets,101,LA,114
+400975602,2018-02-14,Brooklyn Nets,103,Indiana,108
+400975613,2018-02-22,Charlotte,111,Brooklyn Nets,96
+400975645,2018-02-26,Brooklyn Nets,104,Chicago,87
+400975654,2018-02-27,Cleveland,129,Brooklyn Nets,123
+400975670,2018-03-01,Sacramento,116,Brooklyn Nets,111
+400975694,2018-03-04,LA,123,Brooklyn Nets,120
+400975709,2018-03-06,Golden State,114,Brooklyn Nets,101
+400975718,2018-03-08,Charlotte,111,Brooklyn Nets,125
+400975745,2018-03-11,Brooklyn Nets,97,Philadelphia,120
+400975754,2018-03-13,Brooklyn Nets,102,Toronto,116
+400975776,2018-03-16,Philadelphia,120,Brooklyn Nets,116
+400975783,2018-03-17,Brooklyn Nets,114,Dallas,106
+400975799,2018-03-19,Brooklyn Nets,118,Memphis,115
+400975813,2018-03-21,Brooklyn Nets,105,Charlotte,111
+400975828,2018-03-23,Toronto,116,Brooklyn Nets,112
+400975840,2018-03-25,Brooklyn Nets,114,Cleveland,121
+400975863,2018-03-28,Orlando,104,Brooklyn Nets,111
+400975887,2018-03-31,Miami,109,Brooklyn Nets,110
+400975894,2018-04-01,Brooklyn Nets,96,Detroit,108
+400975903,2018-04-03,Philadelphia,121,Brooklyn Nets,95
+400975924,2018-04-05,Milwaukee,111,Brooklyn Nets,119
+400975939,2018-04-07,Chicago,96,Brooklyn Nets,124
+400975951,2018-04-09,Brooklyn Nets,114,Chicago,105
+400975965,2018-04-11,Boston,110,Brooklyn Nets,97
+400974441,2018-10-19,Oklahoma City,105,New York Knicks,84
+400974781,2018-10-21,New York Knicks,107,Detroit,111
+400974802,2018-10-24,Boston,110,New York Knicks,89
+400974824,2018-10-27,New York Knicks,107,Brooklyn,86
+400974841,2018-10-29,Cleveland,95,New York Knicks,114
+400974845,2018-10-30,New York Knicks,116,Denver,110
+400974862,2018-11-01,New York Knicks,97,Houston,119
+400974875,2018-11-03,New York Knicks,120,Phoenix,107
+400974893,2018-11-05,New York Knicks,108,Indiana,101
+400974903,2018-11-07,New York Knicks,118,Charlotte,113
+400974911,2018-11-08,Orlando,112,New York Knicks,99
+400974930,2018-11-11,New York Knicks,118,Sacramento,91
+400974944,2018-11-13,New York Knicks,101,Cleveland,104
+400974957,2018-11-15,New York Knicks,106,Utah,101
+400974972,2018-11-17,Toronto,107,New York Knicks,84
+400974996,2018-11-20,New York Knicks,107,LA,85
+400975009,2018-11-22,New York Knicks,108,Toronto,100
+400975019,2018-11-24,Atlanta,116,New York Knicks,104
+400975033,2018-11-25,Houston,117,New York Knicks,102
+400975044,2018-11-27,New York Knicks,91,Portland,103
+400975057,2018-11-29,New York Knicks,115,Miami,86
+400975085,2018-12-03,New York Knicks,100,Orlando,105
+400975091,2018-12-04,Indiana,115,New York Knicks,97
+400975108,2018-12-06,New York Knicks,99,Memphis,88
+400975131,2018-12-09,Chicago,104,New York Knicks,102
+400975141,2018-12-10,New York Knicks,111,Atlanta,107
+400975150,2018-12-12,New York Knicks,113,Los Angeles,109
+400975165,2018-12-14,Brooklyn,104,New York Knicks,111
+400975182,2018-12-16,New York Knicks,111,Oklahoma City,96
+400975192,2018-12-18,Charlotte,109,New York Knicks,91
+400975219,2018-12-21,New York Knicks,102,Boston,93
+400975222,2018-12-22,Detroit,104,New York Knicks,101
+400974445,2018-12-25,New York Knicks,98,Philadelphia,105
+400975255,2018-12-27,Chicago,92,New York Knicks,87
+400975265,2018-12-28,San Antonio,119,New York Knicks,107
+400975278,2018-12-30,New Orleans,103,New York Knicks,105
+400975296,2018-01-02,New York Knicks,91,San Antonio,100
+400975302,2018-01-03,Washington,121,New York Knicks,103
+400975314,2018-01-05,Miami,107,New York Knicks,103
+400975333,2018-01-07,Dallas,96,New York Knicks,100
+400975353,2018-01-10,New York Knicks,119,Chicago,122
+400975369,2018-01-12,Minnesota,118,New York Knicks,108
+400975381,2018-01-14,New York Knicks,118,New Orleans,123
+400975388,2018-01-15,Brooklyn,104,New York Knicks,119
+400975404,2018-01-17,Memphis,105,New York Knicks,99
+400975418,2018-01-19,Utah,115,New York Knicks,117
+400975430,2018-01-21,Los Angeles,127,New York Knicks,107
+400975445,2018-01-23,Golden State,123,New York Knicks,112
+400975458,2018-01-25,Denver,130,New York Knicks,118
+400975469,2018-01-26,Phoenix,85,New York Knicks,107
+400975491,2018-01-30,New York Knicks,111,Brooklyn,95
+400975504,2018-01-31,Boston,103,New York Knicks,73
+400975517,2018-02-02,Milwaukee,92,New York Knicks,90
+400975532,2018-02-04,New York Knicks,96,Atlanta,99
+400975547,2018-02-06,New York Knicks,89,Milwaukee,103
+400975558,2018-02-08,Toronto,113,New York Knicks,88
+400975582,2018-02-11,Indiana,121,New York Knicks,113
+400975588,2018-02-12,Philadelphia,108,New York Knicks,92
+400975603,2018-02-14,New York Knicks,113,Washington,118
+400975614,2018-02-22,Orlando,113,New York Knicks,120
+400975632,2018-02-24,New York Knicks,112,Boston,121
+400975646,2018-02-26,New York Knicks,111,Golden State,125
+400975681,2018-03-02,LA,128,New York Knicks,105
+400975695,2018-03-04,Sacramento,102,New York Knicks,99
+400975708,2018-03-06,Portland,111,New York Knicks,87
+400975727,2018-03-09,Milwaukee,120,New York Knicks,112
+400975738,2018-03-11,New York Knicks,106,Toronto,132
+400975755,2018-03-13,New York Knicks,97,Dallas,110
+400975768,2018-03-15,New York Knicks,110,Philadelphia,118
+400975784,2018-03-17,New York Knicks,124,Charlotte,101
+400975801,2018-03-19,New York Knicks,110,Chicago,92
+400975814,2018-03-21,Miami,119,New York Knicks,98
+400975827,2018-03-23,New York Knicks,104,Minnesota,108
+400975844,2018-03-25,Washington,97,New York Knicks,101
+400975849,2018-03-26,Charlotte,137,New York Knicks,128
+400975864,2018-03-28,Philadelphia,118,New York Knicks,101
+400975885,2018-03-31,New York Knicks,109,Detroit,115
+400975905,2018-04-03,New York Knicks,73,Orlando,97
+400975932,2018-04-06,New York Knicks,122,Miami,98
+400975938,2018-04-07,New York Knicks,102,Milwaukee,115
+400975953,2018-04-09,New York Knicks,109,Cleveland,123
+400975966,2018-04-11,Cleveland,98,New York Knicks,110
+401029439,2018-04-14,Philadelphia 76ers,130,Miami,103
+401029442,2018-04-16,Philadelphia 76ers,103,Miami,113
+401029443,2018-04-19,Miami,108,Philadelphia 76ers,128
+401029444,2018-04-21,Miami,102,Philadelphia 76ers,106
+401029447,2018-04-24,Philadelphia 76ers,104,Miami,91
+401031671,2018-04-30,Boston,117,Philadelphia 76ers,101
+401031672,2018-05-03,Boston,108,Philadelphia 76ers,103
+401031673,2018-05-05,Philadelphia 76ers,98,Boston,101
+401031674,2018-05-07,Philadelphia 76ers,103,Boston,92
+401031675,2018-05-09,Boston,114,Philadelphia 76ers,112
+401029410,2018-04-14,Toronto Raptors,114,Washington,106
+401029412,2018-04-17,Toronto Raptors,130,Washington,119
+401029413,2018-04-20,Washington,122,Toronto Raptors,103
+401029415,2018-04-22,Washington,106,Toronto Raptors,98
+401029416,2018-04-25,Toronto Raptors,108,Washington,98
+401029419,2018-04-27,Washington,92,Toronto Raptors,102
+401031713,2018-05-01,Toronto Raptors,112,Cleveland,113
+401031714,2018-05-03,Toronto Raptors,110,Cleveland,128
+401031715,2018-05-05,Cleveland,105,Toronto Raptors,103
+401031716,2018-05-07,Cleveland,128,Toronto Raptors,93
+401029441,2018-04-14,Golden State Warriors,113,San Antonio,92
+401029446,2018-04-16,Golden State Warriors,116,San Antonio,101
+401029453,2018-04-19,San Antonio,97,Golden State Warriors,110
+401029455,2018-04-22,San Antonio,103,Golden State Warriors,90
+401029456,2018-04-24,Golden State Warriors,99,San Antonio,91
+401031412,2018-04-28,Golden State Warriors,123,New Orleans,101
+401031645,2018-05-01,Golden State Warriors,121,New Orleans,116
+401031646,2018-05-04,New Orleans,119,Golden State Warriors,100
+401031647,2018-05-06,New Orleans,92,Golden State Warriors,118
+401031648,2018-05-08,Golden State Warriors,113,New Orleans,104
+401032761,2018-05-14,Houston,106,Golden State Warriors,119
+401032762,2018-05-16,Houston,127,Golden State Warriors,105
+401032763,2018-05-20,Golden State Warriors,126,Houston,85
+401032764,2018-05-22,Golden State Warriors,92,Houston,95
+401032765,2018-05-24,Houston,98,Golden State Warriors,94
+401032766,2018-05-26,Golden State Warriors,115,Houston,86
+401032767,2018-05-28,Houston,92,Golden State Warriors,101
+400974442,2018-10-19,Los Angeles,92,LA Clippers,108
+400974788,2018-10-21,LA Clippers,130,Phoenix,88
+400974805,2018-10-24,LA Clippers,102,Utah,84
+400974819,2018-10-26,Portland,103,LA Clippers,104
+400974835,2018-10-28,LA Clippers,87,Detroit,95
+400974851,2018-10-30,LA Clippers,113,Golden State,141
+400974867,2018-11-01,LA Clippers,119,Dallas,98
+400974882,2018-11-04,LA Clippers,104,Memphis,113
+400974888,2018-11-05,LA Clippers,101,Miami,104
+400974905,2018-11-07,San Antonio,120,LA Clippers,107
+400974923,2018-11-10,Oklahoma City,120,LA Clippers,111
+400974929,2018-11-11,New Orleans,111,LA Clippers,103
+400974951,2018-11-13,LA Clippers,105,Philadelphia,109
+400974971,2018-11-17,Cleveland,118,LA Clippers,113
+400974979,2018-11-18,Charlotte,102,LA Clippers,87
+400974996,2018-11-20,NY Knicks,107,LA Clippers,85
+400975007,2018-11-22,Atlanta,103,LA Clippers,116
+400975037,2018-11-25,Sacramento,95,LA Clippers,97
+400975048,2018-11-27,LA Clippers,120,Los Angeles,115
+400975068,2018-11-30,LA Clippers,107,Utah,126
+400975078,2018-12-02,Dallas,108,LA Clippers,82
+400975087,2018-12-03,Minnesota,112,LA Clippers,106
+400975113,2018-12-06,LA Clippers,107,Minnesota,113
+400975126,2018-12-09,LA Clippers,113,Washington,112
+400975147,2018-12-11,LA Clippers,96,Toronto,91
+400975156,2018-12-13,Orlando,95,LA Clippers,106
+400975173,2018-12-15,Washington,100,LA Clippers,91
+400975183,2018-12-16,Miami,90,LA Clippers,85
+400975200,2018-12-18,San Antonio,109,LA Clippers,91
+400975216,2018-12-20,LA Clippers,108,Phoenix,95
+400975226,2018-12-22,Houston,118,LA Clippers,128
+400975238,2018-12-23,Memphis,115,LA Clippers,112
+400975251,2018-12-26,LA Clippers,122,Sacramento,95
+400975275,2018-12-29,Los Angeles,106,LA Clippers,121
+400975288,2018-12-31,LA Clippers,106,Charlotte,98
+400975299,2018-01-02,LA Clippers,113,Memphis,105
+400975313,2018-01-04,LA Clippers,117,Oklahoma City,127
+400975324,2018-01-06,LA Clippers,105,Golden State,121
+400975344,2018-01-08,LA Clippers,108,Atlanta,107
+400975359,2018-01-10,Golden State,106,LA Clippers,125
+400975362,2018-01-11,Sacramento,115,LA Clippers,121
+400975374,2018-01-13,LA Clippers,126,Sacramento,105
+400975394,2018-01-15,LA Clippers,113,Houston,102
+400975408,2018-01-17,LA Clippers,109,Denver,104
+400975427,2018-01-20,Utah,125,LA Clippers,113
+400975441,2018-01-22,LA Clippers,118,Minnesota,126
+400975455,2018-01-24,LA Clippers,102,Boston,113
+400975464,2018-01-26,Memphis,100,LA Clippers,109
+400975479,2018-01-28,New Orleans,103,LA Clippers,112
+400975498,2018-01-30,LA Clippers,96,Portland,104
+400975521,2018-02-03,LA Clippers,113,Chicago,103
+400975542,2018-02-05,LA Clippers,104,Dallas,101
+400975563,2018-02-09,Detroit,95,LA Clippers,108
+400975574,2018-02-10,Philadelphia,112,LA Clippers,98
+400975589,2018-02-12,Brooklyn,101,LA Clippers,114
+400975604,2018-02-14,Boston,119,LA Clippers,129
+400975618,2018-02-22,Golden State,134,LA Clippers,127
+400975627,2018-02-23,Phoenix,117,LA Clippers,128
+400975658,2018-02-27,Denver,120,LA Clippers,122
+400975667,2018-02-28,LA Clippers,92,Houston,105
+400975681,2018-03-02,LA Clippers,128,NY Knicks,105
+400975694,2018-03-04,LA Clippers,123,Brooklyn,120
+400975710,2018-03-06,LA Clippers,116,New Orleans,121
+400975732,2018-03-09,LA Clippers,116,Cleveland,102
+400975737,2018-03-10,LA Clippers,113,Orlando,105
+400975756,2018-03-13,Chicago,106,LA Clippers,112
+400975769,2018-03-15,Houston,101,LA Clippers,96
+400975778,2018-03-16,Oklahoma City,121,LA Clippers,113
+400975795,2018-03-18,LA Clippers,109,Portland,122
+400975806,2018-03-20,Minnesota,123,LA Clippers,109
+400975816,2018-03-21,Milwaukee,120,LA Clippers,127
+400975824,2018-03-23,Indiana,109,LA Clippers,104
+400975843,2018-03-25,Toronto,106,LA Clippers,117
+400975861,2018-03-27,LA Clippers,105,Milwaukee,98
+400975868,2018-03-28,Phoenix,99,LA Clippers,111
+400975883,2018-03-30,Portland,105,LA Clippers,96
+400975892,2018-04-01,LA Clippers,104,Indiana,111
+400975914,2018-04-03,LA Clippers,113,San Antonio,110
+400975925,2018-04-05,Utah,117,LA Clippers,95
+400975937,2018-04-07,LA Clippers,115,Denver,134
+400975958,2018-04-09,LA Clippers,100,New Orleans,113
+400975974,2018-04-11,LA Clippers,100,Los Angeles,115
+400974442,2018-10-19,Los Angeles Lakers,92,LA,108
+400974777,2018-10-20,Phoenix,130,Los Angeles Lakers,132
+400974791,2018-10-22,Los Angeles Lakers,112,New Orleans,119
+400974815,2018-10-25,Los Angeles Lakers,102,Washington,99
+400974827,2018-10-27,Los Angeles Lakers,92,Toronto,101
+400974833,2018-10-28,Utah,96,Los Angeles Lakers,81
+400974855,2018-10-31,Los Angeles Lakers,113,Detroit,93
+400974869,2018-11-02,Portland,113,Los Angeles Lakers,110
+400974881,2018-11-03,Los Angeles Lakers,124,Brooklyn,112
+400974896,2018-11-05,Los Angeles Lakers,107,Memphis,102
+400974912,2018-11-08,Boston,107,Los Angeles Lakers,96
+400974915,2018-11-09,Washington,111,Los Angeles Lakers,95
+400974933,2018-11-11,Milwaukee,98,Los Angeles Lakers,90
+400974947,2018-11-13,Phoenix,93,Los Angeles Lakers,100
+400974965,2018-11-15,Los Angeles Lakers,109,Philadelphia,115
+400974978,2018-11-17,Los Angeles Lakers,113,Phoenix,122
+400974991,2018-11-19,Los Angeles Lakers,127,Denver,109
+400975003,2018-11-21,Los Angeles Lakers,103,Chicago,94
+400975017,2018-11-22,Sacramento,113,Los Angeles Lakers,102
+400975048,2018-11-27,LA,120,Los Angeles Lakers,115
+400975063,2018-11-29,Los Angeles Lakers,123,Golden State,127
+400975083,2018-12-02,Denver,115,Los Angeles Lakers,100
+400975089,2018-12-03,Los Angeles Lakers,95,Houston,118
+400975114,2018-12-07,Philadelphia,104,Los Angeles Lakers,107
+400975128,2018-12-09,Charlotte,99,Los Angeles Lakers,110
+400975150,2018-12-12,NY Knicks,113,Los Angeles Lakers,109
+400975166,2018-12-14,Cleveland,121,Los Angeles Lakers,112
+400975201,2018-12-18,Los Angeles Lakers,114,Golden State,116
+400975210,2018-12-20,Houston,116,Los Angeles Lakers,122
+400975230,2018-12-22,Golden State,113,Los Angeles Lakers,106
+400975242,2018-12-23,Los Angeles Lakers,92,Portland,95
+400974449,2018-12-25,Los Angeles Lakers,104,Minnesota,121
+400975261,2018-12-27,Los Angeles Lakers,99,Memphis,109
+400975275,2018-12-29,Los Angeles Lakers,106,LA,121
+400975286,2018-12-31,Houston,148,Los Angeles Lakers,142
+400975294,2018-01-01,Minnesota,114,Los Angeles Lakers,96
+400975311,2018-01-03,Los Angeles Lakers,96,Oklahoma City,133
+400975323,2018-01-05,Los Angeles Lakers,94,Charlotte,108
+400975336,2018-01-07,Los Angeles Lakers,132,Atlanta,113
+400975348,2018-01-09,Los Angeles Lakers,99,Sacramento,86
+400975363,2018-01-11,Los Angeles Lakers,93,San Antonio,81
+400975373,2018-01-13,Dallas,101,Los Angeles Lakers,107
+400975391,2018-01-15,Memphis,123,Los Angeles Lakers,114
+400975406,2018-01-17,Oklahoma City,114,Los Angeles Lakers,90
+400975419,2018-01-19,Los Angeles Lakers,99,Indiana,86
+400975430,2018-01-21,Los Angeles Lakers,127,NY Knicks,107
+400975446,2018-01-23,Los Angeles Lakers,108,Boston,107
+400975463,2018-01-26,Chicago,103,Los Angeles Lakers,108
+400975481,2018-01-28,Toronto,123,Los Angeles Lakers,111
+400975500,2018-01-31,Orlando,127,Los Angeles Lakers,105
+400975514,2018-02-02,Brooklyn,99,Los Angeles Lakers,102
+400975534,2018-02-04,Oklahoma City,104,Los Angeles Lakers,108
+400975550,2018-02-06,Los Angeles Lakers,112,Phoenix,93
+400975562,2018-02-08,Los Angeles Lakers,106,Oklahoma City,81
+400975576,2018-02-10,Dallas,130,Los Angeles Lakers,123
+400975608,2018-02-14,New Orleans,139,Los Angeles Lakers,117
+400975612,2018-02-15,Minnesota,119,Los Angeles Lakers,111
+400975629,2018-02-23,Los Angeles Lakers,124,Dallas,102
+400975637,2018-02-24,Sacramento,108,Los Angeles Lakers,113
+400975643,2018-02-26,Atlanta,104,Los Angeles Lakers,123
+400975668,2018-03-01,Miami,113,Los Angeles Lakers,131
+400975686,2018-03-03,San Antonio,112,Los Angeles Lakers,116
+400975702,2018-03-05,Los Angeles Lakers,103,Portland,108
+400975717,2018-03-07,Los Angeles Lakers,108,Orlando,107
+400975729,2018-03-09,Denver,125,Los Angeles Lakers,116
+400975746,2018-03-11,Los Angeles Lakers,127,Cleveland,113
+400975761,2018-03-13,Los Angeles Lakers,112,Denver,103
+400975765,2018-03-14,Golden State,117,Los Angeles Lakers,106
+400975780,2018-03-16,Los Angeles Lakers,91,Miami,92
+400975797,2018-03-19,Indiana,110,Los Angeles Lakers,100
+400975821,2018-03-22,New Orleans,128,Los Angeles Lakers,125
+400975838,2018-03-24,Memphis,93,Los Angeles Lakers,100
+400975850,2018-03-26,Detroit,112,Los Angeles Lakers,106
+400975869,2018-03-28,Los Angeles Lakers,103,Dallas,93
+400975882,2018-03-30,Los Angeles Lakers,122,Milwaukee,124
+400975901,2018-04-01,Los Angeles Lakers,83,Sacramento,84
+400975912,2018-04-03,Utah,117,Los Angeles Lakers,110
+400975920,2018-04-04,Los Angeles Lakers,122,San Antonio,112
+400975936,2018-04-06,Los Angeles Lakers,96,Minnesota,113
+400975947,2018-04-08,Los Angeles Lakers,97,Utah,112
+400975964,2018-04-10,Los Angeles Lakers,99,Houston,105
+400975974,2018-04-11,LA,100,Los Angeles Lakers,115
+400974767,2018-10-18,Phoenix Suns,76,Portland,124
+400974777,2018-10-20,Phoenix Suns,130,Los Angeles,132
+400974788,2018-10-21,LA,130,Phoenix Suns,88
+400974799,2018-10-23,Phoenix Suns,117,Sacramento,115
+400974813,2018-10-25,Phoenix Suns,97,Utah,88
+400974834,2018-10-28,Portland,114,Phoenix Suns,107
+400974853,2018-10-31,Brooklyn,114,Phoenix Suns,122
+400974859,2018-11-01,Washington,116,Phoenix Suns,122
+400974875,2018-11-03,NY Knicks,120,Phoenix Suns,107
+400974892,2018-11-05,San Antonio,112,Phoenix Suns,95
+400974898,2018-11-06,Phoenix Suns,92,Brooklyn,98
+400974913,2018-11-08,Phoenix Suns,115,Miami,126
+400974925,2018-11-10,Phoenix Suns,112,Orlando,128
+400974937,2018-11-11,Phoenix Suns,118,Minnesota,110
+400974947,2018-11-13,Phoenix Suns,93,Los Angeles,100
+400974967,2018-11-16,Phoenix Suns,116,Houston,142
+400974978,2018-11-17,Los Angeles,113,Phoenix Suns,122
+400974990,2018-11-19,Phoenix Suns,113,Chicago,105
+400975015,2018-11-22,Phoenix Suns,107,Milwaukee,113
+400975026,2018-11-24,Phoenix Suns,91,New Orleans,115
+400975039,2018-11-26,Minnesota,119,Phoenix Suns,108
+400975050,2018-11-28,Chicago,99,Phoenix Suns,104
+400975054,2018-11-29,Detroit,131,Phoenix Suns,107
+400975077,2018-12-02,Boston,116,Phoenix Suns,111
+400975092,2018-12-04,Philadelphia,101,Phoenix Suns,115
+400975101,2018-12-05,Toronto,126,Phoenix Suns,113
+400975115,2018-12-07,Phoenix Suns,99,Washington,109
+400975134,2018-12-09,Phoenix Suns,101,San Antonio,104
+400975154,2018-12-12,Sacramento,99,Phoenix Suns,92
+400975162,2018-12-13,Phoenix Suns,109,Toronto,115
+400975185,2018-12-16,Minnesota,106,Phoenix Suns,108
+400975199,2018-12-18,Dallas,91,Phoenix Suns,97
+400975216,2018-12-20,LA,108,Phoenix Suns,95
+400975220,2018-12-21,Phoenix Suns,97,Memphis,95
+400975241,2018-12-23,Phoenix Suns,106,Minnesota,115
+400975250,2018-12-26,Phoenix Suns,99,Memphis,97
+400975273,2018-12-29,Sacramento,101,Phoenix Suns,111
+400975290,2018-12-31,Phoenix Suns,110,Philadelphia,123
+400975297,2018-01-02,Phoenix Suns,104,Atlanta,103
+400975309,2018-01-03,Denver,134,Phoenix Suns,111
+400975319,2018-01-05,San Antonio,103,Phoenix Suns,89
+400975334,2018-01-07,Phoenix Suns,114,Oklahoma City,100
+400975372,2018-01-12,Phoenix Suns,95,Houston,112
+400975382,2018-01-14,Phoenix Suns,97,Indiana,120
+400975398,2018-01-16,Portland,118,Phoenix Suns,111
+400975417,2018-01-19,Denver,100,Phoenix Suns,108
+400975437,2018-01-22,Milwaukee,109,Phoenix Suns,105
+400975449,2018-01-24,Indiana,116,Phoenix Suns,101
+400975469,2018-01-26,Phoenix Suns,85,NY Knicks,107
+400975478,2018-01-28,Houston,113,Phoenix Suns,102
+400975486,2018-01-29,Memphis,120,Phoenix Suns,109
+400975506,2018-01-31,Phoenix Suns,102,Dallas,88
+400975519,2018-02-02,Phoenix Suns,97,Utah,129
+400975535,2018-02-04,Phoenix Suns,110,Charlotte,115
+400975550,2018-02-06,Los Angeles,112,Phoenix Suns,93
+400975556,2018-02-07,Phoenix Suns,81,San Antonio,129
+400975578,2018-02-10,Phoenix Suns,113,Denver,123
+400975592,2018-02-12,Golden State,129,Phoenix Suns,83
+400975609,2018-02-14,Utah,107,Phoenix Suns,97
+400975627,2018-02-23,Phoenix Suns,117,LA,128
+400975635,2018-02-24,Phoenix Suns,104,Portland,106
+400975648,2018-02-26,New Orleans,125,Phoenix Suns,116
+400975664,2018-02-28,Memphis,102,Phoenix Suns,110
+400975679,2018-03-02,Phoenix Suns,116,Oklahoma City,124
+400975689,2018-03-04,Atlanta,113,Phoenix Suns,112
+400975698,2018-03-05,Miami,125,Phoenix Suns,103
+400975721,2018-03-08,Oklahoma City,115,Phoenix Suns,87
+400975733,2018-03-10,Charlotte,122,Phoenix Suns,115
+400975760,2018-03-13,Phoenix Suns,107,Cleveland,129
+400975773,2018-03-15,Utah,116,Phoenix Suns,88
+400975790,2018-03-17,Phoenix Suns,109,Golden State,124
+400975809,2018-03-20,Phoenix Suns,88,Detroit,115
+400975826,2018-03-23,Cleveland,120,Phoenix Suns,95
+400975836,2018-03-24,Orlando,105,Phoenix Suns,99
+400975853,2018-03-26,Phoenix Suns,94,Boston,102
+400975868,2018-03-28,Phoenix Suns,99,LA,111
+400975878,2018-03-30,Houston,104,Phoenix Suns,103
+400975899,2018-04-01,Golden State,117,Phoenix Suns,107
+400975913,2018-04-03,Phoenix Suns,97,Sacramento,94
+400975935,2018-04-06,Phoenix Suns,103,New Orleans,122
+400975949,2018-04-08,Phoenix Suns,100,Golden State,117
+400975962,2018-04-10,Dallas,97,Phoenix Suns,124
+400974768,2018-10-18,Sacramento Kings,100,Houston,105
+400974776,2018-10-20,Dallas,88,Sacramento Kings,93
+400974786,2018-10-21,Denver,96,Sacramento Kings,79
+400974799,2018-10-23,Phoenix,117,Sacramento Kings,115
+400974820,2018-10-26,Sacramento Kings,106,New Orleans,114
+400974840,2018-10-29,Sacramento Kings,83,Washington,110
+400974852,2018-10-31,Indiana,101,Sacramento Kings,83
+400974860,2018-11-01,Boston,113,Sacramento Kings,86
+400974883,2018-11-04,Detroit,108,Sacramento Kings,99
+400974909,2018-11-07,Sacramento Kings,94,Oklahoma City,86
+400974918,2018-11-09,Sacramento Kings,109,Philadelphia,108
+400974930,2018-11-11,NY Knicks,118,Sacramento Kings,91
+400974943,2018-11-13,Washington,110,Sacramento Kings,92
+400974955,2018-11-15,Atlanta,126,Sacramento Kings,80
+400974976,2018-11-17,Sacramento Kings,86,Portland,82
+400974985,2018-11-18,Portland,102,Sacramento Kings,90
+400975002,2018-11-20,Sacramento Kings,98,Denver,114
+400975017,2018-11-22,Sacramento Kings,113,Los Angeles,102
+400975037,2018-11-25,Sacramento Kings,95,LA,97
+400975047,2018-11-27,Golden State,106,Sacramento Kings,110
+400975053,2018-11-28,Sacramento Kings,87,Milwaukee,112
+400975073,2018-12-01,Chicago,106,Sacramento Kings,107
+400975082,2018-12-02,Milwaukee,109,Sacramento Kings,104
+400975104,2018-12-06,Cleveland,101,Sacramento Kings,95
+400975124,2018-12-08,New Orleans,109,Sacramento Kings,116
+400975136,2018-12-10,Sacramento Kings,87,Toronto,102
+400975154,2018-12-12,Sacramento Kings,99,Phoenix,92
+400975167,2018-12-14,Minnesota,119,Sacramento Kings,96
+400975188,2018-12-17,Toronto,108,Sacramento Kings,93
+400975202,2018-12-19,Philadelphia,95,Sacramento Kings,101
+400975208,2018-12-20,Brooklyn,99,Sacramento Kings,104
+400975243,2018-12-23,Sacramento Kings,99,San Antonio,108
+400975251,2018-12-26,LA,122,Sacramento Kings,95
+400975259,2018-12-27,Sacramento Kings,109,Cleveland,95
+400975273,2018-12-29,Sacramento Kings,101,Phoenix,111
+400975289,2018-12-31,Sacramento Kings,96,Memphis,114
+400975298,2018-01-02,Sacramento Kings,111,Charlotte,131
+400975331,2018-01-06,Sacramento Kings,106,Denver,98
+400975342,2018-01-08,Sacramento Kings,100,San Antonio,107
+400975348,2018-01-09,Los Angeles,99,Sacramento Kings,86
+400975362,2018-01-11,Sacramento Kings,115,LA,121
+400975374,2018-01-13,LA,126,Sacramento Kings,105
+400975389,2018-01-15,Oklahoma City,95,Sacramento Kings,88
+400975407,2018-01-17,Sacramento Kings,105,Utah,120
+400975416,2018-01-19,Memphis,106,Sacramento Kings,88
+400975433,2018-01-22,Charlotte,112,Sacramento Kings,107
+400975442,2018-01-23,Orlando,99,Sacramento Kings,105
+400975456,2018-01-25,Miami,88,Sacramento Kings,89
+400975483,2018-01-28,San Antonio,113,Sacramento Kings,98
+400975495,2018-01-30,New Orleans,103,Sacramento Kings,114
+400975520,2018-02-02,Sacramento Kings,104,Golden State,119
+400975529,2018-02-03,Sacramento Kings,99,Dallas,106
+400975541,2018-02-05,Sacramento Kings,104,Chicago,98
+400975571,2018-02-09,Sacramento Kings,100,Portland,118
+400975584,2018-02-11,Minnesota,111,Sacramento Kings,106
+400975597,2018-02-13,Dallas,109,Sacramento Kings,114
+400975606,2018-02-14,Houston,100,Sacramento Kings,91
+400975617,2018-02-22,Sacramento Kings,107,Oklahoma City,110
+400975637,2018-02-24,Sacramento Kings,108,Los Angeles,113
+400975652,2018-02-26,Sacramento Kings,100,Minnesota,118
+400975657,2018-02-27,Portland,116,Sacramento Kings,99
+400975670,2018-03-01,Sacramento Kings,116,Brooklyn,111
+400975688,2018-03-03,Sacramento Kings,91,Utah,98
+400975695,2018-03-04,Sacramento Kings,102,NY Knicks,99
+400975715,2018-03-07,Sacramento Kings,101,New Orleans,114
+400975731,2018-03-09,Sacramento Kings,94,Orlando,88
+400975742,2018-03-11,Denver,130,Sacramento Kings,104
+400975749,2018-03-12,Oklahoma City,106,Sacramento Kings,101
+400975764,2018-03-14,Sacramento Kings,123,Miami,119
+400975779,2018-03-16,Golden State,93,Sacramento Kings,98
+400975789,2018-03-17,Utah,103,Sacramento Kings,97
+400975803,2018-03-19,Sacramento Kings,90,Detroit,106
+400975823,2018-03-22,Sacramento Kings,105,Atlanta,90
+400975845,2018-03-25,Sacramento Kings,93,Boston,104
+400975859,2018-03-27,Sacramento Kings,97,Dallas,103
+400975873,2018-03-29,Sacramento Kings,103,Indiana,106
+400975888,2018-03-31,Sacramento Kings,96,Golden State,112
+400975901,2018-04-01,Los Angeles,83,Sacramento Kings,84
+400975913,2018-04-03,Phoenix,97,Sacramento Kings,94
+400975934,2018-04-06,Memphis,93,Sacramento Kings,94
+400975956,2018-04-09,San Antonio,98,Sacramento Kings,85
+400975976,2018-04-11,Sacramento Kings,96,Houston,83
+400974769,2018-10-19,Toronto,117,Chicago Bulls,100
+400974782,2018-10-21,Chicago Bulls,77,San Antonio,87
+400974800,2018-10-24,Cleveland,119,Chicago Bulls,112
+400974816,2018-10-26,Chicago Bulls,91,Atlanta,86
+400974830,2018-10-28,Chicago Bulls,69,Oklahoma City,101
+400974861,2018-11-01,Miami,97,Chicago Bulls,91
+400974871,2018-11-03,Orlando,83,Chicago Bulls,105
+400974884,2018-11-04,Chicago Bulls,90,New Orleans,96
+400974904,2018-11-07,Toronto,119,Chicago Bulls,114
+400974922,2018-11-10,Chicago Bulls,87,Indiana,105
+400974934,2018-11-11,San Antonio,133,Chicago Bulls,94
+400974963,2018-11-15,Oklahoma City,92,Chicago Bulls,79
+400974973,2018-11-17,Chicago Bulls,123,Charlotte,120
+400974990,2018-11-19,Phoenix,113,Chicago Bulls,105
+400975003,2018-11-21,Los Angeles,103,Chicago Bulls,94
+400975016,2018-11-22,Utah,110,Chicago Bulls,80
+400975027,2018-11-24,Golden State,143,Chicago Bulls,94
+400975038,2018-11-26,Chicago Bulls,93,Miami,100
+400975050,2018-11-28,Chicago Bulls,99,Phoenix,104
+400975066,2018-11-30,Denver,111,Chicago Bulls,110
+400975073,2018-12-01,Chicago Bulls,106,Sacramento,107
+400975095,2018-12-04,Chicago Bulls,91,Cleveland,113
+400975105,2018-12-06,Indiana,98,Chicago Bulls,96
+400975118,2018-12-08,Charlotte,111,Chicago Bulls,119
+400975131,2018-12-09,Chicago Bulls,104,NY Knicks,102
+400975142,2018-12-11,Chicago Bulls,108,Boston,85
+400975160,2018-12-13,Chicago Bulls,103,Utah,100
+400975177,2018-12-15,Milwaukee,109,Chicago Bulls,115
+400975195,2018-12-18,Chicago Bulls,117,Philadelphia,115
+400975209,2018-12-20,Chicago Bulls,112,Orlando,94
+400975217,2018-12-21,Cleveland,115,Chicago Bulls,112
+400975236,2018-12-23,Boston,117,Chicago Bulls,92
+400975247,2018-12-26,Milwaukee,106,Chicago Bulls,115
+400975255,2018-12-27,Chicago Bulls,92,NY Knicks,87
+400975270,2018-12-29,Chicago Bulls,119,Indiana,107
+400975283,2018-12-31,Washington,114,Chicago Bulls,110
+400975293,2018-01-01,Chicago Bulls,120,Portland,124
+400975306,2018-01-03,Chicago Bulls,115,Toronto,124
+400975318,2018-01-05,Dallas,124,Chicago Bulls,127
+400975327,2018-01-06,Indiana,125,Chicago Bulls,86
+400975339,2018-01-08,Chicago Bulls,107,Houston,116
+400975353,2018-01-10,NY Knicks,119,Chicago Bulls,122
+400975378,2018-01-13,Chicago Bulls,107,Detroit,105
+400975390,2018-01-15,Chicago Bulls,119,Miami,111
+400975403,2018-01-17,Chicago Bulls,112,Golden State,119
+400975421,2018-01-20,Atlanta,97,Chicago Bulls,113
+400975438,2018-01-22,New Orleans,132,Chicago Bulls,128
+400975450,2018-01-24,Philadelphia,115,Chicago Bulls,101
+400975463,2018-01-26,Chicago Bulls,103,Los Angeles,108
+400975477,2018-01-28,Chicago Bulls,96,Milwaukee,110
+400975505,2018-01-31,Portland,124,Chicago Bulls,108
+400975521,2018-02-03,LA,113,Chicago Bulls,103
+400975541,2018-02-05,Sacramento,104,Chicago Bulls,98
+400975568,2018-02-09,Chicago Bulls,114,Minnesota,113
+400975575,2018-02-10,Chicago Bulls,90,Washington,101
+400975590,2018-02-12,Chicago Bulls,105,Orlando,101
+400975605,2018-02-14,Chicago Bulls,98,Toronto,122
+400975616,2018-02-22,Chicago Bulls,115,Philadelphia,116
+400975634,2018-02-24,Minnesota,122,Chicago Bulls,104
+400975645,2018-02-26,Brooklyn,104,Chicago Bulls,87
+400975653,2018-02-27,Charlotte,118,Chicago Bulls,103
+400975676,2018-03-02,Chicago Bulls,108,Dallas,100
+400975699,2018-03-05,Chicago Bulls,89,Boston,105
+400975713,2018-03-07,Chicago Bulls,119,Memphis,110
+400975723,2018-03-09,Detroit,99,Chicago Bulls,83
+400975739,2018-03-11,Atlanta,122,Chicago Bulls,129
+400975756,2018-03-13,Chicago Bulls,106,LA,112
+400975770,2018-03-15,Memphis,110,Chicago Bulls,111
+400975785,2018-03-17,Chicago Bulls,109,Cleveland,114
+400975801,2018-03-19,NY Knicks,110,Chicago Bulls,92
+400975815,2018-03-21,Chicago Bulls,102,Denver,135
+400975829,2018-03-23,Chicago Bulls,105,Milwaukee,118
+400975835,2018-03-24,Detroit,117,Chicago Bulls,95
+400975857,2018-03-27,Houston,118,Chicago Bulls,86
+400975871,2018-03-29,Miami,103,Chicago Bulls,92
+400975875,2018-03-30,Orlando,82,Chicago Bulls,90
+400975890,2018-04-01,Chicago Bulls,113,Washington,94
+400975906,2018-04-03,Chicago Bulls,120,Charlotte,114
+400975931,2018-04-06,Boston,111,Chicago Bulls,104
+400975939,2018-04-07,Chicago Bulls,96,Brooklyn,124
+400975951,2018-04-09,Brooklyn,114,Chicago Bulls,105
+400975970,2018-04-11,Chicago Bulls,87,Detroit,119
+401029417,2018-04-15,Cleveland Cavaliers,80,Indiana,98
+401029421,2018-04-18,Cleveland Cavaliers,100,Indiana,97
+401029424,2018-04-20,Indiana,92,Cleveland Cavaliers,90
+401029427,2018-04-22,Indiana,100,Cleveland Cavaliers,104
+401029428,2018-04-25,Cleveland Cavaliers,98,Indiana,95
+401029431,2018-04-27,Indiana,121,Cleveland Cavaliers,87
+401029433,2018-04-29,Cleveland Cavaliers,105,Indiana,101
+401031713,2018-05-01,Toronto,112,Cleveland Cavaliers,113
+401031714,2018-05-03,Toronto,110,Cleveland Cavaliers,128
+401031715,2018-05-05,Cleveland Cavaliers,105,Toronto,103
+401031716,2018-05-07,Cleveland Cavaliers,128,Toronto,93
+401032840,2018-05-13,Boston,108,Cleveland Cavaliers,83
+401032841,2018-05-15,Boston,107,Cleveland Cavaliers,94
+401032842,2018-05-19,Cleveland Cavaliers,116,Boston,86
+401032843,2018-05-21,Cleveland Cavaliers,111,Boston,102
+401032844,2018-05-23,Boston,96,Cleveland Cavaliers,83
+401032845,2018-05-25,Cleveland Cavaliers,109,Boston,99
+401032846,2018-05-27,Boston,79,Cleveland Cavaliers,87
+400974700,2018-10-18,Detroit Pistons,102,Charlotte,90
+400974773,2018-10-20,Washington,115,Detroit Pistons,111
+400974781,2018-10-21,NY Knicks,107,Detroit Pistons,111
+400974792,2018-10-23,Detroit Pistons,86,Philadelphia,97
+400974807,2018-10-25,Detroit Pistons,122,Minnesota,101
+400974835,2018-10-28,LA,87,Detroit Pistons,95
+400974842,2018-10-29,Golden State,107,Detroit Pistons,115
+400974855,2018-10-31,Los Angeles,113,Detroit Pistons,93
+400974870,2018-11-03,Detroit Pistons,105,Milwaukee,96
+400974883,2018-11-04,Detroit Pistons,108,Sacramento,99
+400974910,2018-11-08,Detroit Pistons,114,Indiana,97
+400974920,2018-11-10,Detroit Pistons,111,Atlanta,104
+400974940,2018-11-12,Detroit Pistons,112,Miami,103
+400974960,2018-11-15,Milwaukee,99,Detroit Pistons,95
+400974968,2018-11-17,Indiana,107,Detroit Pistons,100
+400974989,2018-11-19,Minnesota,97,Detroit Pistons,100
+400974993,2018-11-20,Detroit Pistons,88,Cleveland,116
+400975024,2018-11-24,Oklahoma City,98,Detroit Pistons,99
+400975043,2018-11-27,Boston,108,Detroit Pistons,118
+400975054,2018-11-29,Detroit Pistons,131,Phoenix,107
+400975071,2018-12-01,Washington,109,Detroit Pistons,91
+400975081,2018-12-02,Philadelphia,108,Detroit Pistons,103
+400975099,2018-12-04,San Antonio,96,Detroit Pistons,93
+400975110,2018-12-06,Milwaukee,104,Detroit Pistons,100
+400975119,2018-12-08,Detroit Pistons,98,Golden State,102
+400975137,2018-12-10,Detroit Pistons,81,Boston,91
+400975149,2018-12-12,Detroit Pistons,84,Denver,103
+400975164,2018-12-14,Atlanta,91,Detroit Pistons,105
+400975170,2018-12-15,Indiana,98,Detroit Pistons,104
+400975189,2018-12-17,Detroit Pistons,114,Orlando,110
+400975212,2018-12-20,Dallas,110,Detroit Pistons,93
+400975222,2018-12-22,Detroit Pistons,104,NY Knicks,101
+400975244,2018-12-26,Detroit Pistons,107,Indiana,83
+400975262,2018-12-28,Orlando,102,Detroit Pistons,89
+400975276,2018-12-30,Detroit Pistons,93,San Antonio,79
+400975304,2018-01-03,Miami,111,Detroit Pistons,104
+400975315,2018-01-05,Philadelphia,114,Detroit Pistons,78
+400975326,2018-01-06,Detroit Pistons,108,Houston,101
+400975341,2018-01-08,New Orleans,112,Detroit Pistons,109
+400975352,2018-01-10,Brooklyn,80,Detroit Pistons,114
+400975378,2018-01-13,Chicago,107,Detroit Pistons,105
+400975384,2018-01-15,Detroit Pistons,107,Charlotte,118
+400975402,2018-01-17,Toronto,96,Detroit Pistons,91
+400975415,2018-01-19,Detroit Pistons,112,Washington,122
+400975431,2018-01-21,Detroit Pistons,100,Brooklyn,101
+400975448,2018-01-24,Detroit Pistons,95,Utah,98
+400975470,2018-01-27,Detroit Pistons,108,Oklahoma City,121
+400975480,2018-01-28,Cleveland,121,Detroit Pistons,104
+400975493,2018-01-30,Detroit Pistons,125,Cleveland,114
+400975507,2018-02-01,Detroit Pistons,104,Memphis,102
+400975522,2018-02-03,Detroit Pistons,111,Miami,107
+400975536,2018-02-05,Detroit Pistons,111,Portland,91
+400975551,2018-02-07,Detroit Pistons,115,Brooklyn,106
+400975563,2018-02-09,Detroit Pistons,95,LA,108
+400975580,2018-02-11,Atlanta,118,Detroit Pistons,115
+400975587,2018-02-12,Detroit Pistons,103,New Orleans,118
+400975599,2018-02-14,Detroit Pistons,104,Atlanta,98
+400975619,2018-02-23,Detroit Pistons,98,Boston,110
+400975638,2018-02-25,Charlotte,114,Detroit Pistons,98
+400975647,2018-02-26,Toronto,123,Detroit Pistons,94
+400975659,2018-02-28,Detroit Pistons,110,Milwaukee,87
+400975672,2018-03-02,Orlando,115,Detroit Pistons,106
+400975684,2018-03-03,Miami,105,Detroit Pistons,96
+400975696,2018-03-05,Cleveland,112,Detroit Pistons,90
+400975712,2018-03-07,Detroit Pistons,119,Toronto,121
+400975723,2018-03-09,Detroit Pistons,99,Chicago,83
+400975759,2018-03-13,Utah,110,Detroit Pistons,79
+400975772,2018-03-15,Denver,120,Detroit Pistons,113
+400975791,2018-03-17,Portland,100,Detroit Pistons,87
+400975803,2018-03-19,Sacramento,90,Detroit Pistons,106
+400975809,2018-03-20,Phoenix,88,Detroit Pistons,115
+400975820,2018-03-22,Houston,100,Detroit Pistons,96
+400975835,2018-03-24,Detroit Pistons,117,Chicago,95
+400975850,2018-03-26,Detroit Pistons,112,Los Angeles,106
+400975870,2018-03-29,Detroit Pistons,103,Washington,92
+400975885,2018-03-31,NY Knicks,109,Detroit Pistons,115
+400975894,2018-04-01,Brooklyn,96,Detroit Pistons,108
+400975915,2018-04-04,Detroit Pistons,108,Philadelphia,115
+400975927,2018-04-06,Detroit Pistons,113,Dallas,106
+400975945,2018-04-08,Memphis,130,Detroit Pistons,117
+400975950,2018-04-09,Detroit Pistons,98,Toronto,108
+400975970,2018-04-11,Chicago,87,Detroit Pistons,119
+401029417,2018-04-15,Cleveland,80,Indiana Pacers,98
+401029421,2018-04-18,Cleveland,100,Indiana Pacers,97
+401029424,2018-04-20,Indiana Pacers,92,Cleveland,90
+401029427,2018-04-22,Indiana Pacers,100,Cleveland,104
+401029428,2018-04-25,Cleveland,98,Indiana Pacers,95
+401029431,2018-04-27,Indiana Pacers,121,Cleveland,87
+401029433,2018-04-29,Cleveland,105,Indiana Pacers,101
+401029429,2018-04-15,Boston,113,Milwaukee Bucks,107
+401029430,2018-04-17,Boston,120,Milwaukee Bucks,106
+401029432,2018-04-20,Milwaukee Bucks,116,Boston,92
+401029434,2018-04-22,Milwaukee Bucks,104,Boston,102
+401029435,2018-04-24,Boston,92,Milwaukee Bucks,87
+401029436,2018-04-26,Milwaukee Bucks,97,Boston,86
+401029437,2018-04-28,Boston,112,Milwaukee Bucks,96
+400974705,2018-10-18,Dallas Mavericks,111,Atlanta,117
+400974776,2018-10-20,Dallas Mavericks,88,Sacramento,93
+400974783,2018-10-21,Houston,107,Dallas Mavericks,91
+400974796,2018-10-23,Dallas Mavericks,103,Golden State,133
+400974812,2018-10-25,Dallas Mavericks,103,Memphis,94
+400974817,2018-10-26,Memphis,96,Dallas Mavericks,91
+400974832,2018-10-28,Dallas Mavericks,110,Philadelphia,112
+400974849,2018-10-30,Utah,104,Dallas Mavericks,89
+400974867,2018-11-01,LA,119,Dallas Mavericks,98
+400974876,2018-11-03,Dallas Mavericks,94,New Orleans,99
+400974885,2018-11-04,Minnesota,112,Dallas Mavericks,99
+400974902,2018-11-07,Washington,99,Dallas Mavericks,113
+400974932,2018-11-11,Dallas Mavericks,104,Cleveland,111
+400974942,2018-11-12,Oklahoma City,112,Dallas Mavericks,99
+400974954,2018-11-14,Dallas Mavericks,91,San Antonio,97
+400974975,2018-11-17,Dallas Mavericks,87,Minnesota,111
+400974984,2018-11-18,Dallas Mavericks,111,Milwaukee,79
+400975000,2018-11-20,Dallas Mavericks,102,Boston,110
+400975011,2018-11-22,Memphis,94,Dallas Mavericks,95
+400975034,2018-11-25,Dallas Mavericks,97,Oklahoma City,81
+400975046,2018-11-27,San Antonio,115,Dallas Mavericks,108
+400975061,2018-11-29,Dallas Mavericks,104,Brooklyn,109
+400975078,2018-12-02,Dallas Mavericks,108,LA,82
+400975098,2018-12-04,Dallas Mavericks,122,Denver,105
+400975107,2018-12-06,Boston,97,Dallas Mavericks,90
+400975123,2018-12-08,Milwaukee,109,Dallas Mavericks,102
+400975139,2018-12-10,Minnesota,97,Dallas Mavericks,92
+400975153,2018-12-12,Dallas Mavericks,95,San Antonio,89
+400975168,2018-12-14,Golden State,112,Dallas Mavericks,97
+400975186,2018-12-16,San Antonio,98,Dallas Mavericks,96
+400975199,2018-12-18,Dallas Mavericks,91,Phoenix,97
+400975212,2018-12-20,Dallas Mavericks,110,Detroit,93
+400975225,2018-12-22,Miami,113,Dallas Mavericks,101
+400975235,2018-12-23,Atlanta,112,Dallas Mavericks,107
+400975245,2018-12-26,Dallas Mavericks,98,Toronto,93
+400975253,2018-12-27,Indiana,94,Dallas Mavericks,98
+400975271,2018-12-29,New Orleans,120,Dallas Mavericks,128
+400975287,2018-12-31,Oklahoma City,113,Dallas Mavericks,116
+400975308,2018-01-03,Dallas Mavericks,122,Golden State,125
+400975318,2018-01-05,Dallas Mavericks,124,Chicago,127
+400975333,2018-01-07,Dallas Mavericks,96,NY Knicks,100
+400975347,2018-01-09,Dallas Mavericks,114,Orlando,99
+400975349,2018-01-10,Charlotte,111,Dallas Mavericks,115
+400975373,2018-01-13,Dallas Mavericks,101,Los Angeles,107
+400975397,2018-01-16,Denver,105,Dallas Mavericks,102
+400975428,2018-01-20,Portland,117,Dallas Mavericks,108
+400975439,2018-01-22,Dallas Mavericks,98,Washington,75
+400975452,2018-01-24,Dallas Mavericks,97,Houston,104
+400975467,2018-01-26,Dallas Mavericks,93,Portland,107
+400975476,2018-01-27,Denver,91,Dallas Mavericks,89
+400975488,2018-01-29,Dallas Mavericks,88,Miami,95
+400975506,2018-01-31,Phoenix,102,Dallas Mavericks,88
+400975529,2018-02-03,Sacramento,99,Dallas Mavericks,106
+400975542,2018-02-05,LA,104,Dallas Mavericks,101
+400975561,2018-02-08,Golden State,121,Dallas Mavericks,103
+400975576,2018-02-10,Dallas Mavericks,130,Los Angeles,123
+400975583,2018-02-11,Houston,104,Dallas Mavericks,97
+400975597,2018-02-13,Dallas Mavericks,109,Sacramento,114
+400975629,2018-02-23,Los Angeles,124,Dallas Mavericks,102
+400975636,2018-02-24,Utah,97,Dallas Mavericks,90
+400975650,2018-02-26,Dallas Mavericks,109,Indiana,103
+400975665,2018-02-28,Dallas Mavericks,110,Oklahoma City,111
+400975676,2018-03-02,Chicago,108,Dallas Mavericks,100
+400975692,2018-03-04,Dallas Mavericks,109,New Orleans,126
+400975707,2018-03-06,Dallas Mavericks,118,Denver,107
+400975735,2018-03-10,Dallas Mavericks,114,Memphis,80
+400975743,2018-03-11,Dallas Mavericks,82,Houston,105
+400975755,2018-03-13,NY Knicks,97,Dallas Mavericks,110
+400975777,2018-03-16,Toronto,122,Dallas Mavericks,115
+400975783,2018-03-17,Brooklyn,114,Dallas Mavericks,106
+400975807,2018-03-20,New Orleans,115,Dallas Mavericks,105
+400975822,2018-03-22,Dallas Mavericks,112,Utah,119
+400975839,2018-03-24,Dallas Mavericks,98,Charlotte,102
+400975859,2018-03-27,Sacramento,97,Dallas Mavericks,103
+400975869,2018-03-28,Los Angeles,103,Dallas Mavericks,93
+400975880,2018-03-30,Dallas Mavericks,92,Minnesota,93
+400975895,2018-04-01,Cleveland,98,Dallas Mavericks,87
+400975910,2018-04-03,Dallas Mavericks,115,Portland,109
+400975916,2018-04-04,Orlando,105,Dallas Mavericks,100
+400975927,2018-04-06,Detroit,113,Dallas Mavericks,106
+400975944,2018-04-08,Philadelphia,109,Dallas Mavericks,97
+400975962,2018-04-10,Dallas Mavericks,97,Phoenix,124
+401029411,2018-04-15,Houston Rockets,104,Minnesota,101
+401029414,2018-04-18,Houston Rockets,102,Minnesota,82
+401029418,2018-04-21,Minnesota,121,Houston Rockets,105
+401029422,2018-04-23,Minnesota,100,Houston Rockets,119
+401029423,2018-04-25,Houston Rockets,122,Minnesota,104
+401031590,2018-04-29,Houston Rockets,110,Utah,96
+401031639,2018-05-02,Houston Rockets,108,Utah,116
+401031640,2018-05-04,Utah,92,Houston Rockets,113
+401031641,2018-05-06,Utah,87,Houston Rockets,100
+401031642,2018-05-08,Houston Rockets,112,Utah,102
+401032761,2018-05-14,Houston Rockets,106,Golden State,119
+401032762,2018-05-16,Houston Rockets,127,Golden State,105
+401032763,2018-05-20,Golden State,126,Houston Rockets,85
+401032764,2018-05-22,Golden State,92,Houston Rockets,95
+401032765,2018-05-24,Houston Rockets,98,Golden State,94
+401032766,2018-05-26,Golden State,115,Houston Rockets,86
+401032767,2018-05-28,Houston Rockets,92,Golden State,101
+400974704,2018-10-18,Memphis Grizzlies,103,New Orleans,91
+400974784,2018-10-21,Memphis Grizzlies,111,Golden State,101
+400974794,2018-10-23,Houston,90,Memphis Grizzlies,98
+400974812,2018-10-25,Dallas,103,Memphis Grizzlies,94
+400974817,2018-10-26,Memphis Grizzlies,96,Dallas,91
+400974831,2018-10-28,Memphis Grizzlies,103,Houston,89
+400974847,2018-10-30,Memphis Grizzlies,99,Charlotte,104
+400974863,2018-11-01,Memphis Grizzlies,99,Orlando,101
+400974882,2018-11-04,LA,104,Memphis Grizzlies,113
+400974896,2018-11-05,Los Angeles,107,Memphis Grizzlies,102
+400974908,2018-11-07,Portland,97,Memphis Grizzlies,98
+400974931,2018-11-11,Houston,111,Memphis Grizzlies,96
+400974945,2018-11-13,Milwaukee,110,Memphis Grizzlies,103
+400974959,2018-11-15,Memphis Grizzlies,113,Indiana,116
+400974983,2018-11-18,Memphis Grizzlies,83,Houston,105
+400974997,2018-11-20,Memphis Grizzlies,92,Portland,100
+400975011,2018-11-22,Memphis Grizzlies,94,Dallas,95
+400975025,2018-11-24,Denver,104,Memphis Grizzlies,92
+400975040,2018-11-26,Memphis Grizzlies,88,Brooklyn,98
+400975062,2018-11-29,San Antonio,104,Memphis Grizzlies,95
+400975074,2018-12-01,Memphis Grizzlies,79,San Antonio,95
+400975080,2018-12-02,Cleveland,116,Memphis Grizzlies,111
+400975096,2018-12-04,Memphis Grizzlies,95,Minnesota,92
+400975108,2018-12-06,NY Knicks,99,Memphis Grizzlies,88
+400975122,2018-12-08,Memphis Grizzlies,107,Toronto,116
+400975133,2018-12-09,Memphis Grizzlies,101,Oklahoma City,102
+400975144,2018-12-11,Memphis Grizzlies,82,Miami,107
+400975157,2018-12-13,Washington,93,Memphis Grizzlies,87
+400975176,2018-12-15,Memphis Grizzlies,96,Atlanta,94
+400975187,2018-12-16,Memphis Grizzlies,93,Boston,102
+400975215,2018-12-20,Golden State,97,Memphis Grizzlies,84
+400975220,2018-12-21,Phoenix,97,Memphis Grizzlies,95
+400975238,2018-12-23,Memphis Grizzlies,115,LA,112
+400975250,2018-12-26,Phoenix,99,Memphis Grizzlies,97
+400975261,2018-12-27,Los Angeles,99,Memphis Grizzlies,109
+400975281,2018-12-30,Golden State,141,Memphis Grizzlies,128
+400975289,2018-12-31,Sacramento,96,Memphis Grizzlies,114
+400975299,2018-01-02,LA,113,Memphis Grizzlies,105
+400975321,2018-01-05,Memphis Grizzlies,100,Washington,102
+400975355,2018-01-10,Memphis Grizzlies,105,New Orleans,102
+400975371,2018-01-12,Denver,87,Memphis Grizzlies,78
+400975391,2018-01-15,Memphis Grizzlies,123,Los Angeles,114
+400975404,2018-01-17,Memphis Grizzlies,105,NY Knicks,99
+400975416,2018-01-19,Memphis Grizzlies,106,Sacramento,88
+400975423,2018-01-20,New Orleans,111,Memphis Grizzlies,104
+400975436,2018-01-22,Memphis Grizzlies,105,Philadelphia,101
+400975453,2018-01-24,Memphis Grizzlies,85,San Antonio,108
+400975464,2018-01-26,Memphis Grizzlies,100,LA,109
+400975486,2018-01-29,Memphis Grizzlies,120,Phoenix,109
+400975499,2018-01-31,Indiana,105,Memphis Grizzlies,101
+400975507,2018-02-01,Detroit,104,Memphis Grizzlies,102
+400975533,2018-02-04,Toronto,101,Memphis Grizzlies,86
+400975545,2018-02-06,Atlanta,108,Memphis Grizzlies,82
+400975554,2018-02-07,Memphis Grizzlies,88,Utah,92
+400975585,2018-02-11,Oklahoma City,110,Memphis Grizzlies,92
+400975607,2018-02-14,Memphis Grizzlies,114,Oklahoma City,121
+400975624,2018-02-23,Memphis Grizzlies,89,Cleveland,112
+400975631,2018-02-24,Miami,115,Memphis Grizzlies,89
+400975644,2018-02-26,Boston,109,Memphis Grizzlies,98
+400975664,2018-02-28,Memphis Grizzlies,102,Phoenix,110
+400975677,2018-03-02,Memphis Grizzlies,102,Denver,108
+400975682,2018-03-03,Orlando,107,Memphis Grizzlies,100
+400975700,2018-03-05,San Antonio,100,Memphis Grizzlies,98
+400975713,2018-03-07,Chicago,119,Memphis Grizzlies,110
+400975726,2018-03-09,Memphis Grizzlies,78,Utah,95
+400975735,2018-03-10,Dallas,114,Memphis Grizzlies,80
+400975748,2018-03-12,Memphis Grizzlies,103,Milwaukee,121
+400975770,2018-03-15,Memphis Grizzlies,110,Chicago,111
+400975786,2018-03-17,Memphis Grizzlies,101,Denver,94
+400975799,2018-03-19,Brooklyn,118,Memphis Grizzlies,115
+400975812,2018-03-21,Philadelphia,119,Memphis Grizzlies,105
+400975818,2018-03-22,Charlotte,140,Memphis Grizzlies,79
+400975838,2018-03-24,Memphis Grizzlies,93,Los Angeles,100
+400975852,2018-03-26,Minnesota,93,Memphis Grizzlies,101
+400975865,2018-03-28,Memphis Grizzlies,108,Portland,103
+400975881,2018-03-30,Utah,107,Memphis Grizzlies,97
+400975900,2018-04-01,Portland,113,Memphis Grizzlies,98
+400975919,2018-04-04,New Orleans,123,Memphis Grizzlies,95
+400975934,2018-04-06,Memphis Grizzlies,93,Sacramento,94
+400975945,2018-04-08,Memphis Grizzlies,130,Detroit,117
+400975955,2018-04-09,Minnesota,113,Memphis Grizzlies,94
+400975973,2018-04-11,Oklahoma City,137,Memphis Grizzlies,123
+401029459,2018-04-14,Portland,95,New Orleans Pelicans,97
+401029460,2018-04-17,Portland,102,New Orleans Pelicans,111
+401029461,2018-04-19,New Orleans Pelicans,119,Portland,102
+401029462,2018-04-21,New Orleans Pelicans,131,Portland,123
+401031412,2018-04-28,Golden State,123,New Orleans Pelicans,101
+401031645,2018-05-01,Golden State,121,New Orleans Pelicans,116
+401031646,2018-05-04,New Orleans Pelicans,119,Golden State,100
+401031647,2018-05-06,New Orleans Pelicans,92,Golden State,118
+401031648,2018-05-08,Golden State,113,New Orleans Pelicans,104
+401029441,2018-04-14,Golden State,113,San Antonio Spurs,92
+401029446,2018-04-16,Golden State,116,San Antonio Spurs,101
+401029453,2018-04-19,San Antonio Spurs,97,Golden State,110
+401029455,2018-04-22,San Antonio Spurs,103,Golden State,90
+401029456,2018-04-24,Golden State,99,San Antonio Spurs,91
+400974705,2018-10-18,Dallas,111,Atlanta Hawks,117
+400974770,2018-10-20,Charlotte,109,Atlanta Hawks,91
+400974789,2018-10-22,Brooklyn,116,Atlanta Hawks,104
+400974793,2018-10-23,Miami,104,Atlanta Hawks,93
+400974816,2018-10-26,Chicago,91,Atlanta Hawks,86
+400974823,2018-10-27,Atlanta Hawks,100,Denver,105
+400974836,2018-10-29,Atlanta Hawks,106,Milwaukee,117
+400974858,2018-11-01,Philadelphia,119,Atlanta Hawks,109
+400974874,2018-11-03,Atlanta Hawks,104,Houston,119
+400974887,2018-11-05,Cleveland,115,Atlanta Hawks,117
+400974897,2018-11-06,Atlanta Hawks,107,Boston,110
+400974920,2018-11-10,Detroit,111,Atlanta Hawks,104
+400974928,2018-11-11,Washington,113,Atlanta Hawks,94
+400974946,2018-11-13,New Orleans,106,Atlanta Hawks,105
+400974955,2018-11-15,Atlanta Hawks,126,Sacramento,80
+400974981,2018-11-18,Atlanta Hawks,99,Boston,110
+400975001,2018-11-20,San Antonio,96,Atlanta Hawks,85
+400975007,2018-11-22,Atlanta Hawks,103,LA,116
+400975019,2018-11-24,Atlanta Hawks,116,NY Knicks,104
+400975031,2018-11-25,Atlanta Hawks,78,Toronto,112
+400975064,2018-11-30,Atlanta Hawks,114,Cleveland,121
+400975079,2018-12-02,Brooklyn,102,Atlanta Hawks,114
+400975093,2018-12-04,Atlanta Hawks,90,Brooklyn,110
+400975106,2018-12-06,Orlando,110,Atlanta Hawks,106
+400975129,2018-12-09,Atlanta Hawks,117,Orlando,110
+400975141,2018-12-10,NY Knicks,111,Atlanta Hawks,107
+400975148,2018-12-12,Cleveland,123,Atlanta Hawks,114
+400975164,2018-12-14,Atlanta Hawks,91,Detroit,105
+400975176,2018-12-15,Memphis,96,Atlanta Hawks,94
+400975194,2018-12-18,Atlanta Hawks,110,Miami,104
+400975206,2018-12-20,Atlanta Hawks,95,Indiana,105
+400975228,2018-12-22,Oklahoma City,120,Atlanta Hawks,117
+400975235,2018-12-23,Atlanta Hawks,112,Dallas,107
+400975254,2018-12-27,Atlanta Hawks,113,Washington,99
+400975268,2018-12-29,Toronto,111,Atlanta Hawks,98
+400975279,2018-12-30,Atlanta Hawks,104,Portland,89
+400975297,2018-01-02,Phoenix,104,Atlanta Hawks,103
+400975322,2018-01-05,Portland,110,Atlanta Hawks,89
+400975336,2018-01-07,Los Angeles,132,Atlanta Hawks,113
+400975344,2018-01-08,LA,108,Atlanta Hawks,107
+400975358,2018-01-10,Denver,97,Atlanta Hawks,110
+400975367,2018-01-12,Atlanta Hawks,105,Brooklyn,110
+400975387,2018-01-15,Atlanta Hawks,102,San Antonio,99
+400975400,2018-01-17,Atlanta Hawks,94,New Orleans,93
+400975421,2018-01-20,Atlanta Hawks,97,Chicago,113
+400975434,2018-01-22,Atlanta Hawks,104,Utah,90
+400975451,2018-01-24,Atlanta Hawks,93,Toronto,108
+400975460,2018-01-26,Charlotte,121,Atlanta Hawks,110
+400975472,2018-01-27,Atlanta Hawks,104,Washington,129
+400975485,2018-01-29,Atlanta Hawks,105,Minnesota,100
+400975501,2018-01-31,Atlanta Hawks,110,Charlotte,123
+400975513,2018-02-02,Boston,119,Atlanta Hawks,110
+400975532,2018-02-04,NY Knicks,96,Atlanta Hawks,99
+400975545,2018-02-06,Atlanta Hawks,108,Memphis,82
+400975557,2018-02-08,Orlando,100,Atlanta Hawks,98
+400975565,2018-02-09,Atlanta Hawks,107,Cleveland,123
+400975580,2018-02-11,Atlanta Hawks,118,Detroit,115
+400975594,2018-02-13,Milwaukee,97,Atlanta Hawks,92
+400975599,2018-02-14,Detroit,104,Atlanta Hawks,98
+400975620,2018-02-23,Indiana,116,Atlanta Hawks,93
+400975643,2018-02-26,Atlanta Hawks,104,Los Angeles,123
+400975661,2018-02-28,Atlanta Hawks,107,Indiana,102
+400975674,2018-03-02,Atlanta Hawks,109,Golden State,114
+400975689,2018-03-04,Atlanta Hawks,113,Phoenix,112
+400975704,2018-03-06,Toronto,106,Atlanta Hawks,90
+400975724,2018-03-09,Indiana,112,Atlanta Hawks,87
+400975739,2018-03-11,Atlanta Hawks,122,Chicago,129
+400975753,2018-03-13,Atlanta Hawks,107,Oklahoma City,119
+400975767,2018-03-15,Atlanta Hawks,117,Charlotte,129
+400975787,2018-03-17,Milwaukee,122,Atlanta Hawks,117
+400975808,2018-03-20,Utah,94,Atlanta Hawks,99
+400975823,2018-03-22,Sacramento,105,Atlanta Hawks,90
+400975833,2018-03-23,Golden State,106,Atlanta Hawks,94
+400975847,2018-03-25,Houston,118,Atlanta Hawks,99
+400975866,2018-03-28,Minnesota,126,Atlanta Hawks,114
+400975876,2018-03-30,Atlanta Hawks,91,Philadelphia,101
+400975893,2018-04-01,Atlanta Hawks,94,Orlando,88
+400975904,2018-04-03,Miami,101,Atlanta Hawks,98
+400975918,2018-04-04,Atlanta Hawks,86,Miami,115
+400975930,2018-04-06,Washington,97,Atlanta Hawks,103
+400975948,2018-04-08,Boston,106,Atlanta Hawks,112
+400975960,2018-04-10,Atlanta Hawks,113,Philadelphia,121
+400974700,2018-10-18,Detroit,102,Charlotte Hornets,90
+400974770,2018-10-20,Charlotte Hornets,109,Atlanta,91
+400974795,2018-10-23,Milwaukee,103,Charlotte Hornets,94
+400974806,2018-10-25,Charlotte Hornets,110,Denver,93
+400974821,2018-10-27,Charlotte Hornets,93,Houston,109
+400974839,2018-10-29,Charlotte Hornets,120,Orlando,113
+400974847,2018-10-30,Memphis,99,Charlotte Hornets,104
+400974856,2018-11-01,Charlotte Hornets,126,Milwaukee,121
+400974877,2018-11-03,San Antonio,108,Charlotte Hornets,101
+400974894,2018-11-05,Minnesota,112,Charlotte Hornets,94
+400974903,2018-11-07,NY Knicks,118,Charlotte Hornets,113
+400974921,2018-11-10,Boston,90,Charlotte Hornets,87
+400974958,2018-11-15,Charlotte Hornets,107,Cleveland,115
+400974973,2018-11-17,Chicago,123,Charlotte Hornets,120
+400974979,2018-11-18,Charlotte Hornets,102,LA,87
+400974992,2018-11-20,Charlotte Hornets,118,Minnesota,102
+400975004,2018-11-22,Charlotte Hornets,129,Washington,124
+400975021,2018-11-24,Cleveland,100,Charlotte Hornets,99
+400975028,2018-11-25,Charlotte Hornets,86,San Antonio,106
+400975058,2018-11-29,Toronto,126,Charlotte Hornets,113
+400975072,2018-12-01,Miami,105,Charlotte Hornets,100
+400975090,2018-12-04,Charlotte Hornets,104,Orlando,94
+400975109,2018-12-06,Charlotte Hornets,87,Golden State,101
+400975118,2018-12-08,Charlotte Hornets,111,Chicago,119
+400975128,2018-12-09,Charlotte Hornets,99,Los Angeles,110
+400975145,2018-12-11,Oklahoma City,103,Charlotte Hornets,116
+400975163,2018-12-13,Houston,108,Charlotte Hornets,96
+400975169,2018-12-15,Charlotte Hornets,98,Miami,104
+400975180,2018-12-16,Charlotte Hornets,91,Portland,93
+400975192,2018-12-18,Charlotte Hornets,109,NY Knicks,91
+400975205,2018-12-20,Charlotte Hornets,111,Toronto,129
+400975227,2018-12-22,Milwaukee,109,Charlotte Hornets,104
+400975232,2018-12-23,Charlotte Hornets,111,Milwaukee,106
+400975252,2018-12-27,Charlotte Hornets,91,Boston,102
+400975274,2018-12-29,Golden State,100,Charlotte Hornets,111
+400975288,2018-12-31,LA,106,Charlotte Hornets,98
+400975298,2018-01-02,Sacramento,111,Charlotte Hornets,131
+400975323,2018-01-05,Los Angeles,94,Charlotte Hornets,108
+400975349,2018-01-10,Charlotte Hornets,111,Dallas,115
+400975364,2018-01-12,Charlotte Hornets,99,Utah,88
+400975375,2018-01-13,Charlotte Hornets,91,Oklahoma City,101
+400975384,2018-01-15,Detroit,107,Charlotte Hornets,118
+400975399,2018-01-17,Charlotte Hornets,133,Washington,109
+400975422,2018-01-20,Charlotte Hornets,105,Miami,106
+400975433,2018-01-22,Charlotte Hornets,112,Sacramento,107
+400975447,2018-01-24,Charlotte Hornets,96,New Orleans,101
+400975460,2018-01-26,Charlotte Hornets,121,Atlanta,110
+400975473,2018-01-27,Miami,95,Charlotte Hornets,91
+400975484,2018-01-29,Indiana,105,Charlotte Hornets,96
+400975501,2018-01-31,Atlanta,110,Charlotte Hornets,123
+400975512,2018-02-02,Charlotte Hornets,133,Indiana,126
+400975535,2018-02-04,Phoenix,110,Charlotte Hornets,115
+400975540,2018-02-05,Denver,121,Charlotte Hornets,104
+400975560,2018-02-08,Portland,109,Charlotte Hornets,103
+400975570,2018-02-09,Utah,106,Charlotte Hornets,94
+400975579,2018-02-11,Charlotte Hornets,103,Toronto,123
+400975600,2018-02-14,Orlando,102,Charlotte Hornets,104
+400975613,2018-02-22,Charlotte Hornets,111,Brooklyn,96
+400975621,2018-02-23,Washington,105,Charlotte Hornets,122
+400975638,2018-02-25,Charlotte Hornets,114,Detroit,98
+400975653,2018-02-27,Charlotte Hornets,118,Chicago,103
+400975662,2018-02-28,Boston,134,Charlotte Hornets,106
+400975673,2018-03-02,Philadelphia,110,Charlotte Hornets,99
+400975690,2018-03-04,Toronto,103,Charlotte Hornets,98
+400975703,2018-03-06,Charlotte Hornets,114,Philadelphia,128
+400975718,2018-03-08,Charlotte Hornets,111,Brooklyn,125
+400975733,2018-03-10,Charlotte Hornets,122,Phoenix,115
+400975757,2018-03-13,New Orleans,119,Charlotte Hornets,115
+400975767,2018-03-15,Atlanta,117,Charlotte Hornets,129
+400975784,2018-03-17,NY Knicks,124,Charlotte Hornets,101
+400975798,2018-03-19,Philadelphia,108,Charlotte Hornets,94
+400975813,2018-03-21,Brooklyn,105,Charlotte Hornets,111
+400975818,2018-03-22,Charlotte Hornets,140,Memphis,79
+400975839,2018-03-24,Dallas,98,Charlotte Hornets,102
+400975849,2018-03-26,Charlotte Hornets,137,NY Knicks,128
+400975862,2018-03-28,Charlotte Hornets,105,Cleveland,118
+400975884,2018-03-31,Washington,107,Charlotte Hornets,93
+400975889,2018-04-01,Charlotte Hornets,102,Philadelphia,119
+400975906,2018-04-03,Chicago,120,Charlotte Hornets,114
+400975928,2018-04-06,Orlando,100,Charlotte Hornets,137
+400975943,2018-04-08,Charlotte Hornets,117,Indiana,123
+400975959,2018-04-10,Indiana,93,Charlotte Hornets,119
+401029439,2018-04-14,Philadelphia,130,Miami Heat,103
+401029442,2018-04-16,Philadelphia,103,Miami Heat,113
+401029443,2018-04-19,Miami Heat,108,Philadelphia,128
+401029444,2018-04-21,Miami Heat,102,Philadelphia,106
+401029447,2018-04-24,Philadelphia,104,Miami Heat,91
+400974702,2018-10-18,Orlando Magic,116,Miami,109
+400974774,2018-10-20,Brooklyn,126,Orlando Magic,121
+400974779,2018-10-21,Cleveland,93,Orlando Magic,114
+400974801,2018-10-24,Orlando Magic,125,Brooklyn,121
+400974822,2018-10-27,Orlando Magic,114,San Antonio,87
+400974839,2018-10-29,Charlotte,120,Orlando Magic,113
+400974848,2018-10-30,New Orleans,99,Orlando Magic,115
+400974863,2018-11-01,Memphis,99,Orlando Magic,101
+400974871,2018-11-03,Orlando Magic,83,Chicago,105
+400974889,2018-11-05,Orlando Magic,88,Boston,104
+400974911,2018-11-08,Orlando Magic,112,NY Knicks,99
+400974925,2018-11-10,Phoenix,112,Orlando Magic,128
+400974936,2018-11-11,Denver,125,Orlando Magic,107
+400974950,2018-11-13,Golden State,110,Orlando Magic,100
+400974964,2018-11-15,Portland,99,Orlando Magic,94
+400974980,2018-11-18,Orlando Magic,85,Utah,125
+400974994,2018-11-20,Orlando Magic,97,Indiana,105
+400975012,2018-11-22,Minnesota,124,Orlando Magic,118
+400975020,2018-11-24,Boston,118,Orlando Magic,103
+400975029,2018-11-25,Philadelphia,130,Orlando Magic,111
+400975041,2018-11-27,Indiana,121,Orlando Magic,109
+400975055,2018-11-29,Orlando Magic,121,Oklahoma City,108
+400975069,2018-12-01,Orlando Magic,112,Golden State,133
+400975085,2018-12-03,NY Knicks,100,Orlando Magic,105
+400975090,2018-12-04,Charlotte,104,Orlando Magic,94
+400975106,2018-12-06,Orlando Magic,110,Atlanta,106
+400975121,2018-12-08,Orlando Magic,89,Denver,103
+400975129,2018-12-09,Atlanta,117,Orlando Magic,110
+400975156,2018-12-13,Orlando Magic,95,LA,106
+400975171,2018-12-15,Orlando Magic,88,Portland,95
+400975189,2018-12-17,Detroit,114,Orlando Magic,110
+400975209,2018-12-20,Chicago,112,Orlando Magic,94
+400975223,2018-12-22,Orlando Magic,97,New Orleans,111
+400975234,2018-12-23,Washington,130,Orlando Magic,103
+400975246,2018-12-26,Miami,107,Orlando Magic,89
+400975262,2018-12-28,Orlando Magic,102,Detroit,89
+400975277,2018-12-30,Orlando Magic,111,Miami,117
+400975291,2018-01-01,Brooklyn,98,Orlando Magic,95
+400975300,2018-01-03,Orlando Magic,98,Houston,116
+400975328,2018-01-06,Orlando Magic,127,Cleveland,131
+400975347,2018-01-09,Dallas,114,Orlando Magic,99
+400975356,2018-01-10,Milwaukee,110,Orlando Magic,103
+400975366,2018-01-12,Washington,125,Orlando Magic,119
+400975395,2018-01-16,Orlando Magic,108,Minnesota,102
+400975410,2018-01-18,Cleveland,104,Orlando Magic,103
+400975429,2018-01-21,Boston,95,Orlando Magic,103
+400975442,2018-01-23,Orlando Magic,99,Sacramento,105
+400975471,2018-01-27,Indiana,114,Orlando Magic,112
+400975494,2018-01-30,Houston,114,Orlando Magic,107
+400975500,2018-01-31,Orlando Magic,127,Los Angeles,105
+400975524,2018-02-03,Orlando Magic,98,Washington,115
+400975538,2018-02-05,Miami,109,Orlando Magic,111
+400975543,2018-02-06,Orlando Magic,116,Cleveland,98
+400975557,2018-02-08,Orlando Magic,100,Atlanta,98
+400975573,2018-02-10,Orlando Magic,104,Milwaukee,111
+400975590,2018-02-12,Chicago,105,Orlando Magic,101
+400975600,2018-02-14,Orlando Magic,102,Charlotte,104
+400975614,2018-02-22,Orlando Magic,113,NY Knicks,120
+400975630,2018-02-24,Philadelphia,116,Orlando Magic,105
+400975649,2018-02-26,Oklahoma City,112,Orlando Magic,105
+400975660,2018-02-28,Orlando Magic,104,Toronto,117
+400975672,2018-03-02,Orlando Magic,115,Detroit,106
+400975682,2018-03-03,Orlando Magic,107,Memphis,100
+400975701,2018-03-05,Utah,94,Orlando Magic,80
+400975717,2018-03-07,Los Angeles,108,Orlando Magic,107
+400975731,2018-03-09,Sacramento,94,Orlando Magic,88
+400975737,2018-03-10,LA,113,Orlando Magic,105
+400975758,2018-03-13,San Antonio,108,Orlando Magic,72
+400975762,2018-03-14,Orlando Magic,126,Milwaukee,117
+400975775,2018-03-16,Orlando Magic,83,Boston,92
+400975804,2018-03-20,Orlando Magic,86,Toronto,93
+400975819,2018-03-22,Orlando Magic,98,Philadelphia,118
+400975836,2018-03-24,Orlando Magic,105,Phoenix,99
+400975863,2018-03-28,Orlando Magic,104,Brooklyn,111
+400975875,2018-03-30,Orlando Magic,82,Chicago,90
+400975893,2018-04-01,Atlanta,94,Orlando Magic,88
+400975905,2018-04-03,NY Knicks,73,Orlando Magic,97
+400975916,2018-04-04,Orlando Magic,105,Dallas,100
+400975928,2018-04-06,Orlando Magic,100,Charlotte,137
+400975946,2018-04-08,Toronto,112,Orlando Magic,101
+400975954,2018-04-09,Milwaukee,102,Orlando Magic,86
+400975968,2018-04-11,Orlando Magic,101,Washington,92
+401029410,2018-04-14,Toronto,114,Washington Wizards,106
+401029412,2018-04-17,Toronto,130,Washington Wizards,119
+401029413,2018-04-20,Washington Wizards,122,Toronto,103
+401029415,2018-04-22,Washington Wizards,106,Toronto,98
+401029416,2018-04-25,Toronto,108,Washington Wizards,98
+401029419,2018-04-27,Washington Wizards,92,Toronto,102
+400974766,2018-10-18,Utah,106,Denver Nuggets,96
+400974786,2018-10-21,Denver Nuggets,96,Sacramento,79
+400974798,2018-10-23,Denver Nuggets,104,Washington,109
+400974806,2018-10-25,Charlotte,110,Denver Nuggets,93
+400974823,2018-10-27,Atlanta,100,Denver Nuggets,105
+400974838,2018-10-29,Brooklyn,111,Denver Nuggets,124
+400974845,2018-10-30,NY Knicks,116,Denver Nuggets,110
+400974865,2018-11-01,Denver Nuggets,129,Toronto,111
+400974878,2018-11-03,Denver Nuggets,95,Miami,94
+400974886,2018-11-04,Denver Nuggets,108,Golden State,127
+400974906,2018-11-07,Denver Nuggets,112,Brooklyn,104
+400974919,2018-11-09,Denver Nuggets,102,Oklahoma City,94
+400974936,2018-11-11,Denver Nuggets,125,Orlando,107
+400974949,2018-11-13,Portland,99,Denver Nuggets,82
+400974977,2018-11-17,Denver Nuggets,146,New Orleans,114
+400974991,2018-11-19,Los Angeles,127,Denver Nuggets,109
+400975002,2018-11-20,Sacramento,98,Denver Nuggets,114
+400975010,2018-11-22,Houston,125,Denver Nuggets,95
+400975025,2018-11-24,Denver Nuggets,104,Memphis,92
+400975052,2018-11-28,Utah,106,Denver Nuggets,77
+400975066,2018-11-30,Denver Nuggets,111,Chicago,110
+400975083,2018-12-02,Denver Nuggets,115,Los Angeles,100
+400975098,2018-12-04,Dallas,122,Denver Nuggets,105
+400975111,2018-12-06,New Orleans,123,Denver Nuggets,114
+400975121,2018-12-08,Orlando,89,Denver Nuggets,103
+400975138,2018-12-10,Indiana,126,Denver Nuggets,116
+400975149,2018-12-12,Detroit,84,Denver Nuggets,103
+400975158,2018-12-13,Boston,124,Denver Nuggets,118
+400975178,2018-12-15,Denver Nuggets,117,New Orleans,111
+400975198,2018-12-18,Oklahoma City,95,Denver Nuggets,94
+400975213,2018-12-20,Denver Nuggets,104,Minnesota,112
+400975229,2018-12-22,Portland,85,Denver Nuggets,102
+400975240,2018-12-23,Golden State,81,Denver Nuggets,96
+400975249,2018-12-26,Denver Nuggets,107,Utah,83
+400975256,2018-12-27,Minnesota,128,Denver Nuggets,125
+400975282,2018-12-30,Denver Nuggets,102,Philadelphia,107
+400975309,2018-01-03,Denver Nuggets,134,Phoenix,111
+400975320,2018-01-05,Denver Nuggets,99,Utah,91
+400975331,2018-01-06,Sacramento,106,Denver Nuggets,98
+400975343,2018-01-08,Golden State,124,Denver Nuggets,114
+400975358,2018-01-10,Denver Nuggets,97,Atlanta,110
+400975371,2018-01-12,Denver Nuggets,87,Memphis,78
+400975379,2018-01-13,San Antonio,112,Denver Nuggets,80
+400975397,2018-01-16,Denver Nuggets,105,Dallas,102
+400975408,2018-01-17,LA,109,Denver Nuggets,104
+400975417,2018-01-19,Denver Nuggets,100,Phoenix,108
+400975440,2018-01-22,Denver Nuggets,104,Portland,101
+400975458,2018-01-25,Denver Nuggets,130,NY Knicks,118
+400975476,2018-01-27,Denver Nuggets,91,Dallas,89
+400975489,2018-01-29,Denver Nuggets,110,Boston,111
+400975496,2018-01-30,San Antonio,106,Denver Nuggets,104
+400975511,2018-02-01,Denver Nuggets,127,Oklahoma City,124
+400975528,2018-02-03,Denver Nuggets,115,Golden State,108
+400975540,2018-02-05,Denver Nuggets,121,Charlotte,104
+400975569,2018-02-09,Houston,130,Denver Nuggets,104
+400975578,2018-02-10,Phoenix,113,Denver Nuggets,123
+400975598,2018-02-13,Denver Nuggets,117,San Antonio,109
+400975611,2018-02-15,Milwaukee,123,Denver Nuggets,134
+400975626,2018-02-23,Denver Nuggets,122,San Antonio,119
+400975642,2018-02-25,Denver Nuggets,114,Houston,119
+400975658,2018-02-27,Denver Nuggets,120,LA,122
+400975677,2018-03-02,Memphis,102,Denver Nuggets,108
+400975683,2018-03-03,Cleveland,117,Denver Nuggets,126
+400975707,2018-03-06,Dallas,118,Denver Nuggets,107
+400975716,2018-03-07,Denver Nuggets,108,Cleveland,113
+400975729,2018-03-09,Denver Nuggets,125,Los Angeles,116
+400975742,2018-03-11,Denver Nuggets,130,Sacramento,104
+400975761,2018-03-13,Los Angeles,112,Denver Nuggets,103
+400975772,2018-03-15,Denver Nuggets,120,Detroit,113
+400975786,2018-03-17,Memphis,101,Denver Nuggets,94
+400975800,2018-03-19,Miami,149,Denver Nuggets,141
+400975815,2018-03-21,Chicago,102,Denver Nuggets,135
+400975825,2018-03-23,Washington,100,Denver Nuggets,108
+400975851,2018-03-26,Philadelphia,123,Denver Nuggets,104
+400975855,2018-03-27,Toronto,114,Denver Nuggets,110
+400975879,2018-03-30,Oklahoma City,125,Denver Nuggets,126
+400975898,2018-04-01,Denver Nuggets,128,Milwaukee,125
+400975911,2018-04-03,Denver Nuggets,107,Indiana,104
+400975926,2018-04-05,Denver Nuggets,100,Minnesota,96
+400975937,2018-04-07,LA,115,Denver Nuggets,134
+400975957,2018-04-09,Denver Nuggets,88,Portland,82
+400975971,2018-04-11,Minnesota,112,Denver Nuggets,106
+401029411,2018-04-15,Houston,104,Minnesota Timberwolves,101
+401029414,2018-04-18,Houston,102,Minnesota Timberwolves,82
+401029418,2018-04-21,Minnesota Timberwolves,121,Houston,105
+401029422,2018-04-23,Minnesota Timberwolves,100,Houston,119
+401029423,2018-04-25,Houston,122,Minnesota Timberwolves,104
+401029438,2018-04-15,Oklahoma City Thunder,116,Utah,108
+401029440,2018-04-18,Oklahoma City Thunder,95,Utah,102
+401029445,2018-04-21,Utah,115,Oklahoma City Thunder,102
+401029450,2018-04-23,Utah,113,Oklahoma City Thunder,96
+401029451,2018-04-25,Oklahoma City Thunder,107,Utah,99
+401029452,2018-04-27,Utah,96,Oklahoma City Thunder,91
+401029459,2018-04-14,Portland Trail Blazers,95,New Orleans,97
+401029460,2018-04-17,Portland Trail Blazers,102,New Orleans,111
+401029461,2018-04-19,New Orleans,119,Portland Trail Blazers,102
+401029462,2018-04-21,New Orleans,131,Portland Trail Blazers,123
+401029438,2018-04-15,Oklahoma City,116,Utah Jazz,108
+401029440,2018-04-18,Oklahoma City,95,Utah Jazz,102
+401029445,2018-04-21,Utah Jazz,115,Oklahoma City,102
+401029450,2018-04-23,Utah Jazz,113,Oklahoma City,96
+401029451,2018-04-25,Oklahoma City,107,Utah Jazz,99
+401029452,2018-04-27,Utah Jazz,96,Oklahoma City,91
+401031590,2018-04-29,Houston,110,Utah Jazz,96
+401031639,2018-05-02,Houston,108,Utah Jazz,116
+401031640,2018-05-04,Utah Jazz,92,Houston,113
+401031641,2018-05-06,Utah Jazz,87,Houston,100
+401031642,2018-05-08,Houston,112,Utah Jazz,102
