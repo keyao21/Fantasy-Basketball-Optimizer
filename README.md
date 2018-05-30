@@ -79,7 +79,7 @@ Enter ending year: 2018
 #### Stored Data
 You can access historic data after running the script in the `historicData` directory. These files should be arranged by type and year. 
 
-### Running backtest
+#### Running backtest
 Once historic data has been stored, we can create a backtest instance by running the following script in the main directory: 
 
 ```python
@@ -106,7 +106,7 @@ Based on the list of players you previously inputed and the other teams in the f
 
 Note: x-axis format is YEAR-WEEK
 
-![Alt text](/images/2018_comparion.png)<br />
+![Alt text](/images/2018_comparison.png)<br />
 
 
 

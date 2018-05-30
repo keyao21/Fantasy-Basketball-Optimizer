@@ -107,7 +107,7 @@ class Backtest():
         def plot():
             # pdb.set_trace()
 
-            fig, axes = plt.subplots(4, 2, sharex=True, figsize=(15,25))
+            fig, axes = plt.subplots(8, 1, sharex=True, figsize=(15,40))
 
             axes = axes.ravel()
 
@@ -131,12 +131,17 @@ class Backtest():
                     # axes[i].xaxis.set_major_locator(months)
             # plt.figlegend( axes, teams.keys(), loc = 'lower center', ncol=5, labelspacing=0. )
 
-            plt.savefig('images/{}_comparison.pdf'.format(self.endyear), format='pdf')
+            plt.savefig('images/{}_comparison.png'.format(self.endyear), format='png')
             plt.show()
 
         plot()
 
 
 if __name__ == '__main__':
+    year = input('Enter starting year: ')
+    leagueID = input("Please enter your league ID: ")
+    teamID = input("Please enter your team ID: ")
+    week = input("Please enter the week number: ")
+
     test = Backtest(2017, 445514, 1, 5)
     test.run(test=True)

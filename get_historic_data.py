@@ -240,12 +240,14 @@ def test(year):
     return data
 
 if __name__ == '__main__':
-    # startyear = 2016
-    # endyear   = 2017
-    # teams, player_stats = getPlayerStats(startyear, endyear)
-    # games = getGames(teams, startyear, endyear)
-    stats = getPlayerGames(2017)
-    stats = getPlayerGames(2016)
 
+    startyear = input('Enter starting year: ')
+    endyear   = input('Enter ending year: ')
+    teams, player_stats = getPlayerStats(startyear, endyear)
+    getGames(teams, startyear, endyear)
+
+    for year in range(startyear, endyear+1):
+        getPlayerGames(year)
+   
 
     
