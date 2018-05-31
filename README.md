@@ -108,6 +108,8 @@ Note: x-axis format is YEAR-WEEK
 
 ![Alt text](/images/2018_comparison.png)<br />
 
+A cursury glance at these plots for this particular scenario shows a couple insights. First, the algorithm seems to favor REBs the most, as the OPTIMAL_TEAM generally has the highest or second highest REB count throughout all the weeks. STLs, ASTs, and PTs fare decently well, usually coming in between 2nd and 4th place. However, 3PTsMade is a category that the algorithm seems to "punt", or give up on, as OPTIMAL_TEAM generally comes close to last place. This could be for many reasons: one of which could be that our algorithm finds REBs to be a reliable stat to focus on. However, big rebounders generally don't shoot as many threes (e.g. DeMarcus Cousins, Dwight Howard, Hasan Whiteside, Andre Drummond). 
+
 
 
 ## NOTES: 
